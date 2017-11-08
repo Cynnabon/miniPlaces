@@ -13,10 +13,10 @@ data_mean = np.asarray([0.45834960097,0.44674252445,0.41352266842])
 # Training Parameters
 learning_rate = 0.001
 dropout = 0.5 # Dropout, probability to keep units
-training_iters = 100000
+training_iters = 1 # orig 100000
 step_display = 50
-step_save = 10000
-path_save = 'alexnet'
+step_save = 1 #10000
+path_save = './alexnet/alexnet' #'alexnet'
 start_from = ''
 
 def alexnet(x, keep_dropout):
