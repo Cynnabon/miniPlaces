@@ -16,7 +16,7 @@ learning_rate = 0.001
 dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
 step_display = 25
-step_save = 500
+step_save = 10000
 path_save = './alexnet_bn/alexnet_bn'
 start_from = ''
 

@@ -17,7 +17,7 @@ training_iters = 1 # orig 100000
 step_display = 50
 step_save = 1 #10000
 path_save = './alexnet/alexnet' #'alexnet'
-start_from = ''
+start_from = './alexnet/alexnet-1'
 
 def alexnet(x, keep_dropout):
     weights = {
