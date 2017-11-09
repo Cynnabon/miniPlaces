@@ -15,9 +15,9 @@ data_mean = np.asarray([0.45834960097,0.44674252445,0.41352266842])
 learning_rate = 0.001
 dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
-step_display = 25
-step_save = 500
-path_save = './alexnet_bn/alexnet_bn'
+step_display = 50
+step_save = 10000
+path_save = './alexnet_bn_grad_desc/alexnet_bn_grad_desc'
 start_from = ''
 
 def batch_norm_layer(x, train_phase, scope_bn):
@@ -127,7 +127,7 @@ logits = alexnet(x, keep_dropout, train_phase)
 
 # Define loss and optimizer
 loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(labels=y, logits=logits))
-train_optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(loss)
+train_optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(loss)
 
 # Evaluate model
 accuracy1 = tf.reduce_mean(tf.cast(tf.nn.in_top_k(logits, y, 1), tf.float32))
@@ -147,6 +147,7 @@ with tf.Session() as sess:
     # Initialization
     if len(start_from)>1:
         saver.restore(sess, start_from)
+        step = training_iters
     else:
         sess.run(init)
 
