@@ -145,13 +145,13 @@ saver = tf.train.Saver()
 # Launch the graph
 with tf.Session() as sess:
     # Initialization
+    step = 0
     if len(start_from)>1:
         saver.restore(sess, start_from)
-        step = training_iters
+        step = int(start_from.split('-')[-1])
     else:
         sess.run(init)
 
-    step = 0
 
     while step < training_iters:
         # Load a batch of training data
