@@ -208,6 +208,7 @@ with tf.Session() as sess:
     print('Evaluating on test set')
     num_batch = loader_test.size()//batch_size
     # sess.run(pred, feed_dict={x: tst_x})
+    file = open('testpred.txt', 'w')
 
     for i in range(num_batch):
         images_batch = loader_test.next_batch(batch_size)
@@ -215,7 +216,8 @@ with tf.Session() as sess:
         # sess.run(pred, feed_dict={x: tst_x})
 
         label = sess.run(tf.nn.top_k(logits, k=5, sorted=True, name=None), feed_dict={x: images_batch, keep_dropout: 1., train_phase: False})
-        print(label.indices[0])
+        pathname = loader_test.list_im[i].split('images/')[-1]
+        file.write(pathname+' '+' '.join([str(integer) for integer in label.indices[0]])+'\n')
 
         # acc1, acc5 = sess.run([accuracy1, accuracy5], feed_dict={x: images_batch, y: labels_batch, keep_dropout: 1., train_phase: False})
         # acc1_total += acc1
@@ -224,6 +226,7 @@ with tf.Session() as sess:
         #       "{:.4f}".format(acc1) + ", Top5 = " + \
         #       "{:.4f}".format(acc5))
 
+    file.close()
     # Evaluate on the whole validation set
     # print('Evaluation on the whole validation set...')
     # num_batch = loader_val.size()//batch_size
