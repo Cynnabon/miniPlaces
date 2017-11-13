@@ -1,3 +1,6 @@
+.DS_Store
 /data/images
 /data/objects
 /model/tensorflow/.DS_Store
+/model/tensorflow/alexnet_bn/
+/model/.DS_Store
