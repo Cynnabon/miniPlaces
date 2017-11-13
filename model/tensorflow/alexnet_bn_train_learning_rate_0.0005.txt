@@ -1,284 +1,1233 @@
 # Images found: 100000
 # Images found: 10000
-[2017-11-09 19:14:48]:
--Iter 0, Training Loss= 4.979133, Accuracy Top1 = 0.0111, Top5 = 0.0778
--Iter 0, Validation Loss= 4.986651, Accuracy Top1 = 0.0056, Top5 = 0.0333
-[2017-11-09 19:17:02]:
--Iter 50, Training Loss= 4.537609, Accuracy Top1 = 0.0778, Top5 = 0.1833
--Iter 50, Validation Loss= 4.512339, Accuracy Top1 = 0.0722, Top5 = 0.2111
-[2017-11-09 19:18:48]:
--Iter 100, Training Loss= 4.264362, Accuracy Top1 = 0.1167, Top5 = 0.3167
--Iter 100, Validation Loss= 4.247585, Accuracy Top1 = 0.0944, Top5 = 0.2944
-[2017-11-09 19:20:33]:
--Iter 150, Training Loss= 3.746613, Accuracy Top1 = 0.1389, Top5 = 0.3833
--Iter 150, Validation Loss= 4.296317, Accuracy Top1 = 0.0722, Top5 = 0.3444
-[2017-11-09 19:22:17]:
--Iter 200, Training Loss= 3.848462, Accuracy Top1 = 0.1278, Top5 = 0.3444
--Iter 200, Validation Loss= 3.863951, Accuracy Top1 = 0.1222, Top5 = 0.3000
-[2017-11-09 19:24:02]:
--Iter 250, Training Loss= 3.714290, Accuracy Top1 = 0.1500, Top5 = 0.3778
--Iter 250, Validation Loss= 3.661747, Accuracy Top1 = 0.1111, Top5 = 0.3944
-[2017-11-09 19:25:46]:
--Iter 300, Training Loss= 4.081685, Accuracy Top1 = 0.1278, Top5 = 0.3056
--Iter 300, Validation Loss= 3.757367, Accuracy Top1 = 0.1389, Top5 = 0.4389
-[2017-11-09 19:27:29]:
--Iter 350, Training Loss= 3.455075, Accuracy Top1 = 0.1278, Top5 = 0.3833
--Iter 350, Validation Loss= 3.604019, Accuracy Top1 = 0.1667, Top5 = 0.3778
-[2017-11-09 19:29:14]:
--Iter 400, Training Loss= 3.393289, Accuracy Top1 = 0.1611, Top5 = 0.4333
--Iter 400, Validation Loss= 3.464370, Accuracy Top1 = 0.1500, Top5 = 0.4000
-[2017-11-09 19:30:58]:
--Iter 450, Training Loss= 3.566537, Accuracy Top1 = 0.1722, Top5 = 0.4556
--Iter 450, Validation Loss= 3.526760, Accuracy Top1 = 0.1889, Top5 = 0.4611
-[2017-11-09 19:32:43]:
--Iter 500, Training Loss= 3.693635, Accuracy Top1 = 0.1833, Top5 = 0.4000
--Iter 500, Validation Loss= 3.647058, Accuracy Top1 = 0.1889, Top5 = 0.4167
-[2017-11-09 19:34:27]:
--Iter 550, Training Loss= 3.342507, Accuracy Top1 = 0.1722, Top5 = 0.4556
--Iter 550, Validation Loss= 3.564952, Accuracy Top1 = 0.1611, Top5 = 0.4389
-[2017-11-09 19:36:04]:
--Iter 600, Training Loss= 3.164072, Accuracy Top1 = 0.2056, Top5 = 0.5111
--Iter 600, Validation Loss= 3.239699, Accuracy Top1 = 0.2444, Top5 = 0.4722
-[2017-11-09 19:37:40]:
--Iter 650, Training Loss= 3.347526, Accuracy Top1 = 0.2167, Top5 = 0.4500
--Iter 650, Validation Loss= 3.501908, Accuracy Top1 = 0.1556, Top5 = 0.4111
-[2017-11-09 19:39:16]:
--Iter 700, Training Loss= 3.149023, Accuracy Top1 = 0.2278, Top5 = 0.4944
--Iter 700, Validation Loss= 2.905880, Accuracy Top1 = 0.2611, Top5 = 0.5778
-[2017-11-09 19:40:52]:
--Iter 750, Training Loss= 3.202023, Accuracy Top1 = 0.2611, Top5 = 0.5500
--Iter 750, Validation Loss= 3.431914, Accuracy Top1 = 0.2278, Top5 = 0.4778
-[2017-11-09 19:42:29]:
--Iter 800, Training Loss= 3.889685, Accuracy Top1 = 0.2167, Top5 = 0.4333
--Iter 800, Validation Loss= 3.266880, Accuracy Top1 = 0.2167, Top5 = 0.5278
-[2017-11-09 19:44:06]:
--Iter 850, Training Loss= 3.276980, Accuracy Top1 = 0.2500, Top5 = 0.4889
--Iter 850, Validation Loss= 3.676129, Accuracy Top1 = 0.2056, Top5 = 0.5167
-[2017-11-09 19:45:43]:
--Iter 900, Training Loss= 3.145833, Accuracy Top1 = 0.2500, Top5 = 0.5111
--Iter 900, Validation Loss= 3.416523, Accuracy Top1 = 0.2333, Top5 = 0.5167
-[2017-11-09 19:47:20]:
--Iter 950, Training Loss= 3.026585, Accuracy Top1 = 0.2222, Top5 = 0.5389
--Iter 950, Validation Loss= 3.067175, Accuracy Top1 = 0.2167, Top5 = 0.5722
-[2017-11-09 19:48:57]:
--Iter 1000, Training Loss= 2.852283, Accuracy Top1 = 0.2944, Top5 = 0.5944
--Iter 1000, Validation Loss= 3.093291, Accuracy Top1 = 0.2389, Top5 = 0.5278
-[2017-11-09 19:50:33]:
--Iter 1050, Training Loss= 2.908637, Accuracy Top1 = 0.2611, Top5 = 0.6000
--Iter 1050, Validation Loss= 3.173111, Accuracy Top1 = 0.2000, Top5 = 0.5000
-[2017-11-09 19:52:10]:
--Iter 1100, Training Loss= 3.043102, Accuracy Top1 = 0.2056, Top5 = 0.5500
--Iter 1100, Validation Loss= 3.112036, Accuracy Top1 = 0.2500, Top5 = 0.5167
-[2017-11-09 19:53:46]:
--Iter 1150, Training Loss= 2.863799, Accuracy Top1 = 0.2667, Top5 = 0.5722
--Iter 1150, Validation Loss= 3.101091, Accuracy Top1 = 0.2778, Top5 = 0.5278
-[2017-11-09 19:55:22]:
--Iter 1200, Training Loss= 2.840511, Accuracy Top1 = 0.2944, Top5 = 0.5556
--Iter 1200, Validation Loss= 2.680835, Accuracy Top1 = 0.3500, Top5 = 0.6222
-[2017-11-09 19:56:58]:
--Iter 1250, Training Loss= 2.701462, Accuracy Top1 = 0.3000, Top5 = 0.5944
--Iter 1250, Validation Loss= 3.102099, Accuracy Top1 = 0.2667, Top5 = 0.5833
-[2017-11-09 19:58:34]:
--Iter 1300, Training Loss= 2.959688, Accuracy Top1 = 0.2500, Top5 = 0.5222
--Iter 1300, Validation Loss= 3.077343, Accuracy Top1 = 0.2000, Top5 = 0.4944
-[2017-11-09 20:00:11]:
--Iter 1350, Training Loss= 2.909989, Accuracy Top1 = 0.3000, Top5 = 0.6222
--Iter 1350, Validation Loss= 2.898448, Accuracy Top1 = 0.2667, Top5 = 0.6000
-[2017-11-09 20:01:47]:
--Iter 1400, Training Loss= 2.811513, Accuracy Top1 = 0.3167, Top5 = 0.5833
--Iter 1400, Validation Loss= 2.814407, Accuracy Top1 = 0.2389, Top5 = 0.5944
-[2017-11-09 20:03:24]:
--Iter 1450, Training Loss= 2.859998, Accuracy Top1 = 0.2833, Top5 = 0.5778
--Iter 1450, Validation Loss= 2.978338, Accuracy Top1 = 0.2889, Top5 = 0.5556
-[2017-11-09 20:05:01]:
--Iter 1500, Training Loss= 3.209309, Accuracy Top1 = 0.2889, Top5 = 0.5222
--Iter 1500, Validation Loss= 2.874848, Accuracy Top1 = 0.2611, Top5 = 0.5667
-[2017-11-09 20:06:38]:
--Iter 1550, Training Loss= 2.991590, Accuracy Top1 = 0.2722, Top5 = 0.5444
--Iter 1550, Validation Loss= 2.933301, Accuracy Top1 = 0.2333, Top5 = 0.5389
-[2017-11-09 20:08:15]:
--Iter 1600, Training Loss= 2.734021, Accuracy Top1 = 0.3444, Top5 = 0.6000
--Iter 1600, Validation Loss= 2.907751, Accuracy Top1 = 0.2389, Top5 = 0.6056
-[2017-11-09 20:09:52]:
--Iter 1650, Training Loss= 2.688888, Accuracy Top1 = 0.3056, Top5 = 0.6556
--Iter 1650, Validation Loss= 3.034188, Accuracy Top1 = 0.2722, Top5 = 0.5333
-[2017-11-09 20:11:28]:
--Iter 1700, Training Loss= 2.873084, Accuracy Top1 = 0.2444, Top5 = 0.6111
--Iter 1700, Validation Loss= 2.868186, Accuracy Top1 = 0.2722, Top5 = 0.5556
-[2017-11-09 20:13:06]:
--Iter 1750, Training Loss= 2.693494, Accuracy Top1 = 0.3222, Top5 = 0.6278
--Iter 1750, Validation Loss= 2.651505, Accuracy Top1 = 0.3222, Top5 = 0.6056
-[2017-11-09 20:14:43]:
--Iter 1800, Training Loss= 3.183874, Accuracy Top1 = 0.2167, Top5 = 0.5000
--Iter 1800, Validation Loss= 2.973810, Accuracy Top1 = 0.2833, Top5 = 0.5722
-[2017-11-09 20:16:19]:
--Iter 1850, Training Loss= 2.972757, Accuracy Top1 = 0.2778, Top5 = 0.5556
--Iter 1850, Validation Loss= 3.291066, Accuracy Top1 = 0.2222, Top5 = 0.4556
-[2017-11-09 20:17:56]:
--Iter 1900, Training Loss= 2.628828, Accuracy Top1 = 0.3222, Top5 = 0.6389
--Iter 1900, Validation Loss= 2.868155, Accuracy Top1 = 0.2389, Top5 = 0.6000
-[2017-11-09 20:19:33]:
--Iter 1950, Training Loss= 2.462425, Accuracy Top1 = 0.3667, Top5 = 0.6556
--Iter 1950, Validation Loss= 2.768531, Accuracy Top1 = 0.3167, Top5 = 0.6000
-[2017-11-09 20:21:09]:
--Iter 2000, Training Loss= 3.129579, Accuracy Top1 = 0.2778, Top5 = 0.6056
--Iter 2000, Validation Loss= 2.603491, Accuracy Top1 = 0.3389, Top5 = 0.6722
-[2017-11-09 20:22:46]:
--Iter 2050, Training Loss= 2.593636, Accuracy Top1 = 0.3333, Top5 = 0.6500
--Iter 2050, Validation Loss= 2.742114, Accuracy Top1 = 0.3000, Top5 = 0.5889
-[2017-11-09 20:24:22]:
--Iter 2100, Training Loss= 2.305210, Accuracy Top1 = 0.4111, Top5 = 0.7389
--Iter 2100, Validation Loss= 2.793622, Accuracy Top1 = 0.3222, Top5 = 0.5722
-[2017-11-09 20:25:59]:
--Iter 2150, Training Loss= 2.594508, Accuracy Top1 = 0.3222, Top5 = 0.6389
--Iter 2150, Validation Loss= 2.999494, Accuracy Top1 = 0.2944, Top5 = 0.6000
-[2017-11-09 20:27:36]:
--Iter 2200, Training Loss= 2.825250, Accuracy Top1 = 0.2667, Top5 = 0.6056
--Iter 2200, Validation Loss= 2.832825, Accuracy Top1 = 0.2722, Top5 = 0.5778
-[2017-11-09 20:29:12]:
--Iter 2250, Training Loss= 2.637399, Accuracy Top1 = 0.3889, Top5 = 0.6000
--Iter 2250, Validation Loss= 2.572411, Accuracy Top1 = 0.3500, Top5 = 0.6444
-[2017-11-09 20:30:49]:
--Iter 2300, Training Loss= 2.664965, Accuracy Top1 = 0.3389, Top5 = 0.6500
--Iter 2300, Validation Loss= 2.532296, Accuracy Top1 = 0.3611, Top5 = 0.6778
-[2017-11-09 20:32:26]:
--Iter 2350, Training Loss= 2.764767, Accuracy Top1 = 0.3611, Top5 = 0.6278
--Iter 2350, Validation Loss= 2.865711, Accuracy Top1 = 0.2667, Top5 = 0.5833
-[2017-11-09 20:34:03]:
--Iter 2400, Training Loss= 2.453768, Accuracy Top1 = 0.4278, Top5 = 0.6722
--Iter 2400, Validation Loss= 2.423223, Accuracy Top1 = 0.3889, Top5 = 0.6722
-[2017-11-09 20:35:40]:
--Iter 2450, Training Loss= 2.552019, Accuracy Top1 = 0.3389, Top5 = 0.6444
--Iter 2450, Validation Loss= 2.540436, Accuracy Top1 = 0.3000, Top5 = 0.6611
-[2017-11-09 20:37:17]:
--Iter 2500, Training Loss= 2.591504, Accuracy Top1 = 0.3056, Top5 = 0.6333
--Iter 2500, Validation Loss= 2.726054, Accuracy Top1 = 0.3167, Top5 = 0.6000
-[2017-11-09 20:38:54]:
--Iter 2550, Training Loss= 2.421214, Accuracy Top1 = 0.3778, Top5 = 0.6389
--Iter 2550, Validation Loss= 2.333125, Accuracy Top1 = 0.4167, Top5 = 0.7222
-[2017-11-09 20:40:31]:
--Iter 2600, Training Loss= 2.562335, Accuracy Top1 = 0.3222, Top5 = 0.6667
--Iter 2600, Validation Loss= 2.890063, Accuracy Top1 = 0.3333, Top5 = 0.5722
-[2017-11-09 20:42:08]:
--Iter 2650, Training Loss= 2.545686, Accuracy Top1 = 0.2667, Top5 = 0.6833
--Iter 2650, Validation Loss= 2.456035, Accuracy Top1 = 0.3333, Top5 = 0.7000
-[2017-11-09 20:43:44]:
--Iter 2700, Training Loss= 2.178723, Accuracy Top1 = 0.4167, Top5 = 0.7556
--Iter 2700, Validation Loss= 2.691527, Accuracy Top1 = 0.3444, Top5 = 0.6444
-[2017-11-09 20:45:21]:
--Iter 2750, Training Loss= 2.472100, Accuracy Top1 = 0.3444, Top5 = 0.7056
--Iter 2750, Validation Loss= 2.547189, Accuracy Top1 = 0.3500, Top5 = 0.6889
-[2017-11-09 20:46:57]:
--Iter 2800, Training Loss= 2.383516, Accuracy Top1 = 0.4389, Top5 = 0.7278
--Iter 2800, Validation Loss= 2.736129, Accuracy Top1 = 0.3056, Top5 = 0.5889
-[2017-11-09 20:48:34]:
--Iter 2850, Training Loss= 2.523444, Accuracy Top1 = 0.3500, Top5 = 0.6444
--Iter 2850, Validation Loss= 2.741726, Accuracy Top1 = 0.3111, Top5 = 0.6111
-[2017-11-09 20:50:10]:
--Iter 2900, Training Loss= 2.349163, Accuracy Top1 = 0.4000, Top5 = 0.7056
--Iter 2900, Validation Loss= 2.538231, Accuracy Top1 = 0.3333, Top5 = 0.6389
-[2017-11-09 20:51:47]:
--Iter 2950, Training Loss= 2.478098, Accuracy Top1 = 0.3278, Top5 = 0.6611
--Iter 2950, Validation Loss= 2.607762, Accuracy Top1 = 0.3278, Top5 = 0.6500
-[2017-11-09 20:53:23]:
--Iter 3000, Training Loss= 2.541548, Accuracy Top1 = 0.3278, Top5 = 0.6278
--Iter 3000, Validation Loss= 2.506252, Accuracy Top1 = 0.3222, Top5 = 0.6500
-[2017-11-09 20:55:00]:
--Iter 3050, Training Loss= 2.422819, Accuracy Top1 = 0.3944, Top5 = 0.6889
--Iter 3050, Validation Loss= 2.568737, Accuracy Top1 = 0.3500, Top5 = 0.6667
-[2017-11-09 20:56:36]:
--Iter 3100, Training Loss= 2.370590, Accuracy Top1 = 0.4278, Top5 = 0.6722
--Iter 3100, Validation Loss= 2.490355, Accuracy Top1 = 0.4000, Top5 = 0.6667
-[2017-11-09 20:58:12]:
--Iter 3150, Training Loss= 2.444246, Accuracy Top1 = 0.3944, Top5 = 0.7111
--Iter 3150, Validation Loss= 2.865026, Accuracy Top1 = 0.2833, Top5 = 0.5444
-[2017-11-09 20:59:48]:
--Iter 3200, Training Loss= 2.508201, Accuracy Top1 = 0.3278, Top5 = 0.6444
--Iter 3200, Validation Loss= 2.755627, Accuracy Top1 = 0.3111, Top5 = 0.6222
-[2017-11-09 21:01:24]:
--Iter 3250, Training Loss= 2.273690, Accuracy Top1 = 0.4056, Top5 = 0.7056
--Iter 3250, Validation Loss= 2.404139, Accuracy Top1 = 0.3722, Top5 = 0.6833
-[2017-11-09 21:03:00]:
--Iter 3300, Training Loss= 2.107560, Accuracy Top1 = 0.4278, Top5 = 0.7611
--Iter 3300, Validation Loss= 2.960751, Accuracy Top1 = 0.2611, Top5 = 0.5778
-[2017-11-09 21:04:36]:
--Iter 3350, Training Loss= 2.365081, Accuracy Top1 = 0.3944, Top5 = 0.7056
--Iter 3350, Validation Loss= 2.507246, Accuracy Top1 = 0.3167, Top5 = 0.6889
-[2017-11-09 21:06:11]:
--Iter 3400, Training Loss= 2.151738, Accuracy Top1 = 0.4500, Top5 = 0.7333
--Iter 3400, Validation Loss= 2.415245, Accuracy Top1 = 0.3722, Top5 = 0.7222
-[2017-11-09 21:07:47]:
--Iter 3450, Training Loss= 2.317384, Accuracy Top1 = 0.3944, Top5 = 0.7500
--Iter 3450, Validation Loss= 2.679697, Accuracy Top1 = 0.3333, Top5 = 0.6278
-[2017-11-09 21:09:23]:
--Iter 3500, Training Loss= 2.605116, Accuracy Top1 = 0.3667, Top5 = 0.6778
--Iter 3500, Validation Loss= 2.698278, Accuracy Top1 = 0.3389, Top5 = 0.6667
-[2017-11-09 21:10:59]:
--Iter 3550, Training Loss= 2.301868, Accuracy Top1 = 0.3778, Top5 = 0.7333
--Iter 3550, Validation Loss= 2.549586, Accuracy Top1 = 0.3500, Top5 = 0.6778
-[2017-11-09 21:12:35]:
--Iter 3600, Training Loss= 2.448352, Accuracy Top1 = 0.3556, Top5 = 0.6833
--Iter 3600, Validation Loss= 2.487106, Accuracy Top1 = 0.3667, Top5 = 0.6833
-[2017-11-09 21:14:11]:
--Iter 3650, Training Loss= 2.553294, Accuracy Top1 = 0.3611, Top5 = 0.6444
--Iter 3650, Validation Loss= 2.820251, Accuracy Top1 = 0.3167, Top5 = 0.6111
-[2017-11-09 21:15:46]:
--Iter 3700, Training Loss= 2.467318, Accuracy Top1 = 0.3333, Top5 = 0.6500
--Iter 3700, Validation Loss= 2.515043, Accuracy Top1 = 0.3000, Top5 = 0.6611
-[2017-11-09 21:17:22]:
--Iter 3750, Training Loss= 1.986311, Accuracy Top1 = 0.4611, Top5 = 0.7889
--Iter 3750, Validation Loss= 2.856012, Accuracy Top1 = 0.3000, Top5 = 0.5722
-[2017-11-09 21:18:58]:
--Iter 3800, Training Loss= 2.245121, Accuracy Top1 = 0.4000, Top5 = 0.7111
--Iter 3800, Validation Loss= 2.518047, Accuracy Top1 = 0.3778, Top5 = 0.6611
-[2017-11-09 21:20:34]:
--Iter 3850, Training Loss= 2.137114, Accuracy Top1 = 0.4389, Top5 = 0.7333
--Iter 3850, Validation Loss= 2.346146, Accuracy Top1 = 0.3611, Top5 = 0.6833
-[2017-11-09 21:22:09]:
--Iter 3900, Training Loss= 2.222031, Accuracy Top1 = 0.4278, Top5 = 0.7056
--Iter 3900, Validation Loss= 2.361358, Accuracy Top1 = 0.4056, Top5 = 0.6944
-[2017-11-09 21:23:45]:
--Iter 3950, Training Loss= 2.173007, Accuracy Top1 = 0.4389, Top5 = 0.7444
--Iter 3950, Validation Loss= 2.423050, Accuracy Top1 = 0.3833, Top5 = 0.7056
-[2017-11-09 21:25:21]:
--Iter 4000, Training Loss= 2.099814, Accuracy Top1 = 0.4500, Top5 = 0.7333
--Iter 4000, Validation Loss= 2.185746, Accuracy Top1 = 0.3667, Top5 = 0.7500
-[2017-11-09 21:26:57]:
--Iter 4050, Training Loss= 2.149954, Accuracy Top1 = 0.4222, Top5 = 0.7333
--Iter 4050, Validation Loss= 2.583648, Accuracy Top1 = 0.3667, Top5 = 0.6444
-[2017-11-09 21:28:33]:
--Iter 4100, Training Loss= 2.115563, Accuracy Top1 = 0.4278, Top5 = 0.7944
--Iter 4100, Validation Loss= 2.416265, Accuracy Top1 = 0.3500, Top5 = 0.7222
-[2017-11-09 21:30:09]:
--Iter 4150, Training Loss= 2.418873, Accuracy Top1 = 0.3833, Top5 = 0.7000
--Iter 4150, Validation Loss= 2.573793, Accuracy Top1 = 0.3167, Top5 = 0.6500
-[2017-11-09 21:31:45]:
--Iter 4200, Training Loss= 2.283329, Accuracy Top1 = 0.4056, Top5 = 0.7167
--Iter 4200, Validation Loss= 2.244127, Accuracy Top1 = 0.4111, Top5 = 0.7389
-[2017-11-09 21:33:20]:
--Iter 4250, Training Loss= 2.139621, Accuracy Top1 = 0.4333, Top5 = 0.7889
--Iter 4250, Validation Loss= 2.254051, Accuracy Top1 = 0.4056, Top5 = 0.7333
-[2017-11-09 21:34:56]:
--Iter 4300, Training Loss= 2.034093, Accuracy Top1 = 0.4667, Top5 = 0.7778
--Iter 4300, Validation Loss= 2.363201, Accuracy Top1 = 0.3667, Top5 = 0.6611
-[2017-11-09 21:36:32]:
--Iter 4350, Training Loss= 1.998160, Accuracy Top1 = 0.4667, Top5 = 0.7500
--Iter 4350, Validation Loss= 2.319165, Accuracy Top1 = 0.3667, Top5 = 0.6778
-[2017-11-09 21:38:08]:
--Iter 4400, Training Loss= 2.148301, Accuracy Top1 = 0.4222, Top5 = 0.7111
--Iter 4400, Validation Loss= 2.588361, Accuracy Top1 = 0.3389, Top5 = 0.6389
-[2017-11-09 21:39:44]:
--Iter 4450, Training Loss= 2.279792, Accuracy Top1 = 0.3778, Top5 = 0.7556
--Iter 4450, Validation Loss= 2.630703, Accuracy Top1 = 0.3056, Top5 = 0.6444
-[2017-11-09 21:41:19]:
--Iter 4500, Training Loss= 1.903723, Accuracy Top1 = 0.4889, Top5 = 0.7722
--Iter 4500, Validation Loss= 2.279757, Accuracy Top1 = 0.3833, Top5 = 0.7000
-[2017-11-09 21:42:55]:
--Iter 4550, Training Loss= 2.086438, Accuracy Top1 = 0.4278, Top5 = 0.7667
--Iter 4550, Validation Loss= 2.466678, Accuracy Top1 = 0.3667, Top5 = 0.6611
-[2017-11-09 21:44:31]:
--Iter 4600, Training Loss= 1.928003, Accuracy Top1 = 0.4833, Top5 = 0.7778
--Iter 4600, Validation Loss= 2.657189, Accuracy Top1 = 0.3444, Top5 = 0.6500
-[2017-11-09 21:46:07]:
--Iter 4650, Training Loss= 2.152816, Accuracy Top1 = 0.4722, Top5 = 0.7167
--Iter 4650, Validation Loss= 2.635241, Accuracy Top1 = 0.3389, Top5 = 0.6556
+[2017-11-10 05:25:12]:
+-Iter 0, Training Loss= 5.026289, Accuracy Top1 = 0.0000, Top5 = 0.0200
+-Iter 0, Validation Loss= 4.947025, Accuracy Top1 = 0.0200, Top5 = 0.1100
+[2017-11-10 05:26:31]:
+-Iter 50, Training Loss= 4.708958, Accuracy Top1 = 0.0800, Top5 = 0.2100
+-Iter 50, Validation Loss= 4.660202, Accuracy Top1 = 0.0700, Top5 = 0.2600
+[2017-11-10 05:27:32]:
+-Iter 100, Training Loss= 4.509482, Accuracy Top1 = 0.1100, Top5 = 0.2500
+-Iter 100, Validation Loss= 4.491071, Accuracy Top1 = 0.1000, Top5 = 0.3100
+[2017-11-10 05:28:34]:
+-Iter 150, Training Loss= 3.950920, Accuracy Top1 = 0.1100, Top5 = 0.3000
+-Iter 150, Validation Loss= 3.813769, Accuracy Top1 = 0.1000, Top5 = 0.3400
+[2017-11-10 05:29:37]:
+-Iter 200, Training Loss= 4.189519, Accuracy Top1 = 0.1600, Top5 = 0.3700
+-Iter 200, Validation Loss= 3.743331, Accuracy Top1 = 0.1000, Top5 = 0.3300
+[2017-11-10 05:30:39]:
+-Iter 250, Training Loss= 3.769026, Accuracy Top1 = 0.0800, Top5 = 0.3300
+-Iter 250, Validation Loss= 4.137531, Accuracy Top1 = 0.1400, Top5 = 0.3500
+[2017-11-10 05:31:41]:
+-Iter 300, Training Loss= 4.889654, Accuracy Top1 = 0.1700, Top5 = 0.3400
+-Iter 300, Validation Loss= 4.409494, Accuracy Top1 = 0.0900, Top5 = 0.3300
+[2017-11-10 05:32:43]:
+-Iter 350, Training Loss= 3.981204, Accuracy Top1 = 0.1000, Top5 = 0.3200
+-Iter 350, Validation Loss= 3.925916, Accuracy Top1 = 0.1300, Top5 = 0.3300
+[2017-11-10 05:33:44]:
+-Iter 400, Training Loss= 3.847002, Accuracy Top1 = 0.1500, Top5 = 0.3800
+-Iter 400, Validation Loss= 4.013119, Accuracy Top1 = 0.1400, Top5 = 0.4400
+[2017-11-10 05:34:46]:
+-Iter 450, Training Loss= 3.979557, Accuracy Top1 = 0.1000, Top5 = 0.3100
+-Iter 450, Validation Loss= 3.775033, Accuracy Top1 = 0.1000, Top5 = 0.4100
+[2017-11-10 05:35:48]:
+-Iter 500, Training Loss= 4.470525, Accuracy Top1 = 0.0700, Top5 = 0.3600
+-Iter 500, Validation Loss= 3.731142, Accuracy Top1 = 0.2100, Top5 = 0.4000
+[2017-11-10 05:36:50]:
+-Iter 550, Training Loss= 3.682333, Accuracy Top1 = 0.1700, Top5 = 0.4000
+-Iter 550, Validation Loss= 4.266003, Accuracy Top1 = 0.2200, Top5 = 0.4400
+[2017-11-10 05:37:52]:
+-Iter 600, Training Loss= 4.855180, Accuracy Top1 = 0.1800, Top5 = 0.4200
+-Iter 600, Validation Loss= 3.191830, Accuracy Top1 = 0.2100, Top5 = 0.5000
+[2017-11-10 05:38:53]:
+-Iter 650, Training Loss= 3.567674, Accuracy Top1 = 0.1600, Top5 = 0.3800
+-Iter 650, Validation Loss= 3.718730, Accuracy Top1 = 0.1600, Top5 = 0.2900
+[2017-11-10 05:39:55]:
+-Iter 700, Training Loss= 3.649974, Accuracy Top1 = 0.1900, Top5 = 0.4600
+-Iter 700, Validation Loss= 3.825762, Accuracy Top1 = 0.1500, Top5 = 0.3600
+[2017-11-10 05:40:57]:
+-Iter 750, Training Loss= 3.292726, Accuracy Top1 = 0.2100, Top5 = 0.4700
+-Iter 750, Validation Loss= 3.594167, Accuracy Top1 = 0.1500, Top5 = 0.4400
+[2017-11-10 05:41:59]:
+-Iter 800, Training Loss= 3.321314, Accuracy Top1 = 0.1700, Top5 = 0.5000
+-Iter 800, Validation Loss= 3.456619, Accuracy Top1 = 0.1600, Top5 = 0.4100
+[2017-11-10 05:43:02]:
+-Iter 850, Training Loss= 3.692243, Accuracy Top1 = 0.2400, Top5 = 0.4900
+-Iter 850, Validation Loss= 3.166561, Accuracy Top1 = 0.2400, Top5 = 0.5100
+[2017-11-10 05:44:04]:
+-Iter 900, Training Loss= 3.263509, Accuracy Top1 = 0.2000, Top5 = 0.5100
+-Iter 900, Validation Loss= 3.446131, Accuracy Top1 = 0.1400, Top5 = 0.4300
+[2017-11-10 05:45:06]:
+-Iter 950, Training Loss= 3.482713, Accuracy Top1 = 0.1500, Top5 = 0.4500
+-Iter 950, Validation Loss= 4.276970, Accuracy Top1 = 0.1900, Top5 = 0.4100
+[2017-11-10 05:46:07]:
+-Iter 1000, Training Loss= 3.312870, Accuracy Top1 = 0.1800, Top5 = 0.5000
+-Iter 1000, Validation Loss= 3.357603, Accuracy Top1 = 0.1800, Top5 = 0.4800
+[2017-11-10 05:47:04]:
+-Iter 1050, Training Loss= 3.326161, Accuracy Top1 = 0.2100, Top5 = 0.5300
+-Iter 1050, Validation Loss= 3.467368, Accuracy Top1 = 0.1800, Top5 = 0.4900
+[2017-11-10 05:48:02]:
+-Iter 1100, Training Loss= 3.525025, Accuracy Top1 = 0.1900, Top5 = 0.5200
+-Iter 1100, Validation Loss= 2.944434, Accuracy Top1 = 0.2700, Top5 = 0.6000
+[2017-11-10 05:48:59]:
+-Iter 1150, Training Loss= 3.148458, Accuracy Top1 = 0.1700, Top5 = 0.5400
+-Iter 1150, Validation Loss= 3.461774, Accuracy Top1 = 0.1600, Top5 = 0.4700
+[2017-11-10 05:49:56]:
+-Iter 1200, Training Loss= 4.087678, Accuracy Top1 = 0.2700, Top5 = 0.5800
+-Iter 1200, Validation Loss= 3.674359, Accuracy Top1 = 0.1800, Top5 = 0.5100
+[2017-11-10 05:50:53]:
+-Iter 1250, Training Loss= 3.163013, Accuracy Top1 = 0.1800, Top5 = 0.4800
+-Iter 1250, Validation Loss= 3.168713, Accuracy Top1 = 0.2900, Top5 = 0.5300
+[2017-11-10 05:51:50]:
+-Iter 1300, Training Loss= 4.266943, Accuracy Top1 = 0.2800, Top5 = 0.4900
+-Iter 1300, Validation Loss= 2.759185, Accuracy Top1 = 0.2900, Top5 = 0.6500
+[2017-11-10 05:52:48]:
+-Iter 1350, Training Loss= 2.935284, Accuracy Top1 = 0.2700, Top5 = 0.5800
+-Iter 1350, Validation Loss= 3.323679, Accuracy Top1 = 0.2400, Top5 = 0.5100
+[2017-11-10 05:53:45]:
+-Iter 1400, Training Loss= 3.238136, Accuracy Top1 = 0.1800, Top5 = 0.5000
+-Iter 1400, Validation Loss= 3.047798, Accuracy Top1 = 0.1900, Top5 = 0.4800
+[2017-11-10 05:54:42]:
+-Iter 1450, Training Loss= 3.252094, Accuracy Top1 = 0.1900, Top5 = 0.5400
+-Iter 1450, Validation Loss= 3.007494, Accuracy Top1 = 0.2000, Top5 = 0.5800
+[2017-11-10 05:55:40]:
+-Iter 1500, Training Loss= 3.395133, Accuracy Top1 = 0.2200, Top5 = 0.5000
+-Iter 1500, Validation Loss= 3.395528, Accuracy Top1 = 0.2100, Top5 = 0.4300
+[2017-11-10 05:56:38]:
+-Iter 1550, Training Loss= 3.095698, Accuracy Top1 = 0.2700, Top5 = 0.5800
+-Iter 1550, Validation Loss= 3.325007, Accuracy Top1 = 0.2800, Top5 = 0.5300
+[2017-11-10 05:57:35]:
+-Iter 1600, Training Loss= 3.684164, Accuracy Top1 = 0.2300, Top5 = 0.5400
+-Iter 1600, Validation Loss= 3.647325, Accuracy Top1 = 0.1600, Top5 = 0.4700
+[2017-11-10 05:58:33]:
+-Iter 1650, Training Loss= 3.421999, Accuracy Top1 = 0.2500, Top5 = 0.5600
+-Iter 1650, Validation Loss= 3.014114, Accuracy Top1 = 0.3100, Top5 = 0.5500
+[2017-11-10 05:59:30]:
+-Iter 1700, Training Loss= 3.249568, Accuracy Top1 = 0.2300, Top5 = 0.5500
+-Iter 1700, Validation Loss= 3.242195, Accuracy Top1 = 0.2400, Top5 = 0.5600
+[2017-11-10 06:00:27]:
+-Iter 1750, Training Loss= 2.939500, Accuracy Top1 = 0.2700, Top5 = 0.5800
+-Iter 1750, Validation Loss= 3.184482, Accuracy Top1 = 0.1400, Top5 = 0.4700
+[2017-11-10 06:01:25]:
+-Iter 1800, Training Loss= 2.804435, Accuracy Top1 = 0.2400, Top5 = 0.5700
+-Iter 1800, Validation Loss= 3.551869, Accuracy Top1 = 0.2400, Top5 = 0.4600
+[2017-11-10 06:02:23]:
+-Iter 1850, Training Loss= 2.824554, Accuracy Top1 = 0.3000, Top5 = 0.6200
+-Iter 1850, Validation Loss= 2.840286, Accuracy Top1 = 0.3000, Top5 = 0.5600
+[2017-11-10 06:03:20]:
+-Iter 1900, Training Loss= 3.046087, Accuracy Top1 = 0.3200, Top5 = 0.6000
+-Iter 1900, Validation Loss= 2.973323, Accuracy Top1 = 0.2500, Top5 = 0.5600
+[2017-11-10 06:04:17]:
+-Iter 1950, Training Loss= 3.306252, Accuracy Top1 = 0.2300, Top5 = 0.5500
+-Iter 1950, Validation Loss= 2.895414, Accuracy Top1 = 0.2500, Top5 = 0.6200
+[2017-11-10 06:05:15]:
+-Iter 2000, Training Loss= 2.972540, Accuracy Top1 = 0.2700, Top5 = 0.5400
+-Iter 2000, Validation Loss= 3.183458, Accuracy Top1 = 0.1700, Top5 = 0.5200
+[2017-11-10 06:06:12]:
+-Iter 2050, Training Loss= 2.918165, Accuracy Top1 = 0.2900, Top5 = 0.5700
+-Iter 2050, Validation Loss= 2.952684, Accuracy Top1 = 0.2700, Top5 = 0.5700
+[2017-11-10 06:07:10]:
+-Iter 2100, Training Loss= 3.019953, Accuracy Top1 = 0.2100, Top5 = 0.5600
+-Iter 2100, Validation Loss= 3.002590, Accuracy Top1 = 0.2600, Top5 = 0.5500
+[2017-11-10 06:08:07]:
+-Iter 2150, Training Loss= 2.871882, Accuracy Top1 = 0.2500, Top5 = 0.5600
+-Iter 2150, Validation Loss= 2.802954, Accuracy Top1 = 0.2500, Top5 = 0.6600
+[2017-11-10 06:09:05]:
+-Iter 2200, Training Loss= 3.173467, Accuracy Top1 = 0.2900, Top5 = 0.6000
+-Iter 2200, Validation Loss= 2.690961, Accuracy Top1 = 0.3300, Top5 = 0.6300
+[2017-11-10 06:10:02]:
+-Iter 2250, Training Loss= 2.903711, Accuracy Top1 = 0.2400, Top5 = 0.5500
+-Iter 2250, Validation Loss= 2.610634, Accuracy Top1 = 0.2800, Top5 = 0.6400
+[2017-11-10 06:11:00]:
+-Iter 2300, Training Loss= 3.026196, Accuracy Top1 = 0.2800, Top5 = 0.5400
+-Iter 2300, Validation Loss= 3.337550, Accuracy Top1 = 0.2200, Top5 = 0.5400
+[2017-11-10 06:11:57]:
+-Iter 2350, Training Loss= 2.909863, Accuracy Top1 = 0.2900, Top5 = 0.5300
+-Iter 2350, Validation Loss= 3.072151, Accuracy Top1 = 0.2600, Top5 = 0.5300
+[2017-11-10 06:12:55]:
+-Iter 2400, Training Loss= 3.205910, Accuracy Top1 = 0.1900, Top5 = 0.4900
+-Iter 2400, Validation Loss= 2.839707, Accuracy Top1 = 0.2800, Top5 = 0.6100
+[2017-11-10 06:13:52]:
+-Iter 2450, Training Loss= 2.953627, Accuracy Top1 = 0.2700, Top5 = 0.5600
+-Iter 2450, Validation Loss= 2.782449, Accuracy Top1 = 0.3100, Top5 = 0.6100
+[2017-11-10 06:14:50]:
+-Iter 2500, Training Loss= 2.836997, Accuracy Top1 = 0.3200, Top5 = 0.6300
+-Iter 2500, Validation Loss= 3.064027, Accuracy Top1 = 0.2800, Top5 = 0.5900
+[2017-11-10 06:15:48]:
+-Iter 2550, Training Loss= 2.753629, Accuracy Top1 = 0.3600, Top5 = 0.6200
+-Iter 2550, Validation Loss= 2.964484, Accuracy Top1 = 0.2600, Top5 = 0.5600
+[2017-11-10 06:16:45]:
+-Iter 2600, Training Loss= 3.435365, Accuracy Top1 = 0.2900, Top5 = 0.5700
+-Iter 2600, Validation Loss= 2.584763, Accuracy Top1 = 0.4400, Top5 = 0.6400
+[2017-11-10 06:17:43]:
+-Iter 2650, Training Loss= 3.024405, Accuracy Top1 = 0.2700, Top5 = 0.5200
+-Iter 2650, Validation Loss= 2.979371, Accuracy Top1 = 0.2600, Top5 = 0.5800
+[2017-11-10 06:18:41]:
+-Iter 2700, Training Loss= 2.814984, Accuracy Top1 = 0.2900, Top5 = 0.6000
+-Iter 2700, Validation Loss= 2.481231, Accuracy Top1 = 0.3500, Top5 = 0.6800
+[2017-11-10 06:19:39]:
+-Iter 2750, Training Loss= 2.606112, Accuracy Top1 = 0.2700, Top5 = 0.6500
+-Iter 2750, Validation Loss= 2.942445, Accuracy Top1 = 0.3000, Top5 = 0.5400
+[2017-11-10 06:20:37]:
+-Iter 2800, Training Loss= 2.559754, Accuracy Top1 = 0.3600, Top5 = 0.6100
+-Iter 2800, Validation Loss= 2.704309, Accuracy Top1 = 0.2800, Top5 = 0.5900
+[2017-11-10 06:21:35]:
+-Iter 2850, Training Loss= 2.910266, Accuracy Top1 = 0.3600, Top5 = 0.6000
+-Iter 2850, Validation Loss= 3.227438, Accuracy Top1 = 0.2300, Top5 = 0.5000
+[2017-11-10 06:22:32]:
+-Iter 2900, Training Loss= 2.821652, Accuracy Top1 = 0.3400, Top5 = 0.5900
+-Iter 2900, Validation Loss= 3.077115, Accuracy Top1 = 0.2300, Top5 = 0.5100
+[2017-11-10 06:23:30]:
+-Iter 2950, Training Loss= 3.066716, Accuracy Top1 = 0.3100, Top5 = 0.5900
+-Iter 2950, Validation Loss= 2.709119, Accuracy Top1 = 0.2600, Top5 = 0.6000
+Model saved at Iter 3000 !
+[2017-11-10 06:24:30]:
+-Iter 3000, Training Loss= 2.775455, Accuracy Top1 = 0.3000, Top5 = 0.6200
+-Iter 3000, Validation Loss= 3.004116, Accuracy Top1 = 0.2100, Top5 = 0.5100
+[2017-11-10 06:25:28]:
+-Iter 3050, Training Loss= 2.694955, Accuracy Top1 = 0.3300, Top5 = 0.6300
+-Iter 3050, Validation Loss= 2.923427, Accuracy Top1 = 0.2700, Top5 = 0.6000
+[2017-11-10 06:26:27]:
+-Iter 3100, Training Loss= 2.548543, Accuracy Top1 = 0.3200, Top5 = 0.6800
+-Iter 3100, Validation Loss= 2.423606, Accuracy Top1 = 0.3800, Top5 = 0.7100
+[2017-11-10 06:27:24]:
+-Iter 3150, Training Loss= 2.572718, Accuracy Top1 = 0.3000, Top5 = 0.6500
+-Iter 3150, Validation Loss= 2.567512, Accuracy Top1 = 0.3400, Top5 = 0.6800
+[2017-11-10 06:28:22]:
+-Iter 3200, Training Loss= 2.880933, Accuracy Top1 = 0.3200, Top5 = 0.6200
+-Iter 3200, Validation Loss= 2.844131, Accuracy Top1 = 0.2700, Top5 = 0.5800
+[2017-11-10 06:29:20]:
+-Iter 3250, Training Loss= 2.678962, Accuracy Top1 = 0.2900, Top5 = 0.6000
+-Iter 3250, Validation Loss= 2.767080, Accuracy Top1 = 0.3500, Top5 = 0.5900
+[2017-11-10 06:30:18]:
+-Iter 3300, Training Loss= 2.963861, Accuracy Top1 = 0.3100, Top5 = 0.5300
+-Iter 3300, Validation Loss= 2.798262, Accuracy Top1 = 0.3300, Top5 = 0.6400
+[2017-11-10 06:31:16]:
+-Iter 3350, Training Loss= 2.366821, Accuracy Top1 = 0.3700, Top5 = 0.6900
+-Iter 3350, Validation Loss= 2.956287, Accuracy Top1 = 0.2200, Top5 = 0.6100
+[2017-11-10 06:32:14]:
+-Iter 3400, Training Loss= 3.030844, Accuracy Top1 = 0.2600, Top5 = 0.5000
+-Iter 3400, Validation Loss= 2.956224, Accuracy Top1 = 0.3100, Top5 = 0.6100
+[2017-11-10 06:33:12]:
+-Iter 3450, Training Loss= 2.666764, Accuracy Top1 = 0.3600, Top5 = 0.6300
+-Iter 3450, Validation Loss= 2.726385, Accuracy Top1 = 0.3100, Top5 = 0.5900
+[2017-11-10 06:34:10]:
+-Iter 3500, Training Loss= 2.648822, Accuracy Top1 = 0.3500, Top5 = 0.7100
+-Iter 3500, Validation Loss= 2.831549, Accuracy Top1 = 0.2400, Top5 = 0.5900
+[2017-11-10 06:35:07]:
+-Iter 3550, Training Loss= 2.622196, Accuracy Top1 = 0.3500, Top5 = 0.6500
+-Iter 3550, Validation Loss= 2.735452, Accuracy Top1 = 0.3200, Top5 = 0.6000
+[2017-11-10 06:36:06]:
+-Iter 3600, Training Loss= 3.195314, Accuracy Top1 = 0.2900, Top5 = 0.6100
+-Iter 3600, Validation Loss= 2.859376, Accuracy Top1 = 0.2600, Top5 = 0.6400
+[2017-11-10 06:37:04]:
+-Iter 3650, Training Loss= 2.687170, Accuracy Top1 = 0.3100, Top5 = 0.6400
+-Iter 3650, Validation Loss= 2.359256, Accuracy Top1 = 0.3700, Top5 = 0.7000
+[2017-11-10 06:38:02]:
+-Iter 3700, Training Loss= 2.624662, Accuracy Top1 = 0.2900, Top5 = 0.6600
+-Iter 3700, Validation Loss= 2.513965, Accuracy Top1 = 0.3600, Top5 = 0.6600
+[2017-11-10 06:38:59]:
+-Iter 3750, Training Loss= 2.494436, Accuracy Top1 = 0.3400, Top5 = 0.6700
+-Iter 3750, Validation Loss= 2.564073, Accuracy Top1 = 0.3800, Top5 = 0.6100
+[2017-11-10 06:39:57]:
+-Iter 3800, Training Loss= 2.483740, Accuracy Top1 = 0.3100, Top5 = 0.6000
+-Iter 3800, Validation Loss= 2.921954, Accuracy Top1 = 0.3400, Top5 = 0.5700
+[2017-11-10 06:40:55]:
+-Iter 3850, Training Loss= 2.416539, Accuracy Top1 = 0.3900, Top5 = 0.6600
+-Iter 3850, Validation Loss= 2.864479, Accuracy Top1 = 0.2900, Top5 = 0.6000
+[2017-11-10 06:41:53]:
+-Iter 3900, Training Loss= 2.558700, Accuracy Top1 = 0.4000, Top5 = 0.6800
+-Iter 3900, Validation Loss= 2.965363, Accuracy Top1 = 0.3000, Top5 = 0.5800
+[2017-11-10 06:42:51]:
+-Iter 3950, Training Loss= 2.890794, Accuracy Top1 = 0.2600, Top5 = 0.6400
+-Iter 3950, Validation Loss= 2.814603, Accuracy Top1 = 0.2600, Top5 = 0.6200
+[2017-11-10 06:43:50]:
+-Iter 4000, Training Loss= 2.632209, Accuracy Top1 = 0.3100, Top5 = 0.6200
+-Iter 4000, Validation Loss= 2.840544, Accuracy Top1 = 0.2900, Top5 = 0.6000
+[2017-11-10 06:44:48]:
+-Iter 4050, Training Loss= 2.506425, Accuracy Top1 = 0.4400, Top5 = 0.6700
+-Iter 4050, Validation Loss= 2.517916, Accuracy Top1 = 0.3900, Top5 = 0.7200
+[2017-11-10 06:45:46]:
+-Iter 4100, Training Loss= 2.552526, Accuracy Top1 = 0.3400, Top5 = 0.7000
+-Iter 4100, Validation Loss= 2.914632, Accuracy Top1 = 0.3300, Top5 = 0.5900
+[2017-11-10 06:46:44]:
+-Iter 4150, Training Loss= 2.443323, Accuracy Top1 = 0.3700, Top5 = 0.7000
+-Iter 4150, Validation Loss= 2.107819, Accuracy Top1 = 0.4200, Top5 = 0.7400
+[2017-11-10 06:47:42]:
+-Iter 4200, Training Loss= 2.841379, Accuracy Top1 = 0.3300, Top5 = 0.6000
+-Iter 4200, Validation Loss= 2.631646, Accuracy Top1 = 0.3100, Top5 = 0.6200
+[2017-11-10 06:48:40]:
+-Iter 4250, Training Loss= 2.435147, Accuracy Top1 = 0.3200, Top5 = 0.6600
+-Iter 4250, Validation Loss= 2.722571, Accuracy Top1 = 0.2800, Top5 = 0.5900
+[2017-11-10 06:49:38]:
+-Iter 4300, Training Loss= 2.525061, Accuracy Top1 = 0.3700, Top5 = 0.6600
+-Iter 4300, Validation Loss= 2.672913, Accuracy Top1 = 0.3100, Top5 = 0.6100
+[2017-11-10 06:50:37]:
+-Iter 4350, Training Loss= 2.337531, Accuracy Top1 = 0.4200, Top5 = 0.6800
+-Iter 4350, Validation Loss= 2.684258, Accuracy Top1 = 0.3400, Top5 = 0.5900
+[2017-11-10 06:51:35]:
+-Iter 4400, Training Loss= 2.861145, Accuracy Top1 = 0.2500, Top5 = 0.6000
+-Iter 4400, Validation Loss= 2.349380, Accuracy Top1 = 0.4000, Top5 = 0.7400
+[2017-11-10 06:52:33]:
+-Iter 4450, Training Loss= 2.611354, Accuracy Top1 = 0.3700, Top5 = 0.6600
+-Iter 4450, Validation Loss= 2.607410, Accuracy Top1 = 0.3200, Top5 = 0.6000
+[2017-11-10 06:53:31]:
+-Iter 4500, Training Loss= 2.445854, Accuracy Top1 = 0.3100, Top5 = 0.7200
+-Iter 4500, Validation Loss= 2.610710, Accuracy Top1 = 0.2700, Top5 = 0.6500
+[2017-11-10 06:54:29]:
+-Iter 4550, Training Loss= 2.399613, Accuracy Top1 = 0.4200, Top5 = 0.6900
+-Iter 4550, Validation Loss= 2.709243, Accuracy Top1 = 0.3300, Top5 = 0.6200
+[2017-11-10 06:55:28]:
+-Iter 4600, Training Loss= 2.909208, Accuracy Top1 = 0.3400, Top5 = 0.6500
+-Iter 4600, Validation Loss= 2.585273, Accuracy Top1 = 0.3100, Top5 = 0.6700
+[2017-11-10 06:56:26]:
+-Iter 4650, Training Loss= 2.503765, Accuracy Top1 = 0.4000, Top5 = 0.7000
+-Iter 4650, Validation Loss= 2.671528, Accuracy Top1 = 0.3700, Top5 = 0.5800
+[2017-11-10 06:57:24]:
+-Iter 4700, Training Loss= 2.625414, Accuracy Top1 = 0.3800, Top5 = 0.6400
+-Iter 4700, Validation Loss= 3.264351, Accuracy Top1 = 0.3100, Top5 = 0.5400
+[2017-11-10 06:58:21]:
+-Iter 4750, Training Loss= 2.245028, Accuracy Top1 = 0.3500, Top5 = 0.7500
+-Iter 4750, Validation Loss= 2.298496, Accuracy Top1 = 0.3700, Top5 = 0.7100
+[2017-11-10 06:59:19]:
+-Iter 4800, Training Loss= 2.525900, Accuracy Top1 = 0.3300, Top5 = 0.6600
+-Iter 4800, Validation Loss= 2.654082, Accuracy Top1 = 0.2900, Top5 = 0.6300
+[2017-11-10 07:00:17]:
+-Iter 4850, Training Loss= 2.237737, Accuracy Top1 = 0.4600, Top5 = 0.7100
+-Iter 4850, Validation Loss= 2.947749, Accuracy Top1 = 0.2700, Top5 = 0.6300
+[2017-11-10 07:01:15]:
+-Iter 4900, Training Loss= 2.513653, Accuracy Top1 = 0.4300, Top5 = 0.7000
+-Iter 4900, Validation Loss= 2.346826, Accuracy Top1 = 0.3800, Top5 = 0.7200
+[2017-11-10 07:02:14]:
+-Iter 4950, Training Loss= 2.602641, Accuracy Top1 = 0.3600, Top5 = 0.6600
+-Iter 4950, Validation Loss= 2.788229, Accuracy Top1 = 0.3100, Top5 = 0.5800
+[2017-11-10 07:03:12]:
+-Iter 5000, Training Loss= 2.500173, Accuracy Top1 = 0.3700, Top5 = 0.6800
+-Iter 5000, Validation Loss= 2.618845, Accuracy Top1 = 0.3400, Top5 = 0.6000
+[2017-11-10 07:04:11]:
+-Iter 5050, Training Loss= 2.382337, Accuracy Top1 = 0.4200, Top5 = 0.6500
+-Iter 5050, Validation Loss= 2.553686, Accuracy Top1 = 0.3500, Top5 = 0.6600
+[2017-11-10 07:05:10]:
+-Iter 5100, Training Loss= 2.220491, Accuracy Top1 = 0.3700, Top5 = 0.7300
+-Iter 5100, Validation Loss= 2.800117, Accuracy Top1 = 0.2700, Top5 = 0.5900
+[2017-11-10 07:06:08]:
+-Iter 5150, Training Loss= 2.285312, Accuracy Top1 = 0.3800, Top5 = 0.7200
+-Iter 5150, Validation Loss= 2.348564, Accuracy Top1 = 0.4100, Top5 = 0.7400
+[2017-11-10 07:07:07]:
+-Iter 5200, Training Loss= 2.564390, Accuracy Top1 = 0.4300, Top5 = 0.6700
+-Iter 5200, Validation Loss= 2.604234, Accuracy Top1 = 0.3300, Top5 = 0.6800
+[2017-11-10 07:08:06]:
+-Iter 5250, Training Loss= 2.305434, Accuracy Top1 = 0.3700, Top5 = 0.7000
+-Iter 5250, Validation Loss= 2.582128, Accuracy Top1 = 0.3800, Top5 = 0.6700
+[2017-11-10 07:09:05]:
+-Iter 5300, Training Loss= 2.580452, Accuracy Top1 = 0.3600, Top5 = 0.6400
+-Iter 5300, Validation Loss= 2.854581, Accuracy Top1 = 0.3200, Top5 = 0.5700
+[2017-11-10 07:10:03]:
+-Iter 5350, Training Loss= 2.247129, Accuracy Top1 = 0.4500, Top5 = 0.6800
+-Iter 5350, Validation Loss= 2.489394, Accuracy Top1 = 0.3900, Top5 = 0.6500
+[2017-11-10 07:11:02]:
+-Iter 5400, Training Loss= 2.611637, Accuracy Top1 = 0.2800, Top5 = 0.6500
+-Iter 5400, Validation Loss= 2.500462, Accuracy Top1 = 0.3400, Top5 = 0.6700
+[2017-11-10 07:12:01]:
+-Iter 5450, Training Loss= 2.387851, Accuracy Top1 = 0.4000, Top5 = 0.6600
+-Iter 5450, Validation Loss= 2.615871, Accuracy Top1 = 0.3500, Top5 = 0.6300
+[2017-11-10 07:13:00]:
+-Iter 5500, Training Loss= 2.245575, Accuracy Top1 = 0.3700, Top5 = 0.7700
+-Iter 5500, Validation Loss= 2.682185, Accuracy Top1 = 0.3500, Top5 = 0.6200
+[2017-11-10 07:13:59]:
+-Iter 5550, Training Loss= 2.416248, Accuracy Top1 = 0.4500, Top5 = 0.6900
+-Iter 5550, Validation Loss= 2.336832, Accuracy Top1 = 0.4300, Top5 = 0.7200
+[2017-11-10 07:14:57]:
+-Iter 5600, Training Loss= 2.382380, Accuracy Top1 = 0.4300, Top5 = 0.7600
+-Iter 5600, Validation Loss= 2.347646, Accuracy Top1 = 0.3700, Top5 = 0.7300
+[2017-11-10 07:15:56]:
+-Iter 5650, Training Loss= 2.362877, Accuracy Top1 = 0.4100, Top5 = 0.6800
+-Iter 5650, Validation Loss= 2.499601, Accuracy Top1 = 0.3100, Top5 = 0.7100
+[2017-11-10 07:16:55]:
+-Iter 5700, Training Loss= 2.428985, Accuracy Top1 = 0.4100, Top5 = 0.7000
+-Iter 5700, Validation Loss= 2.914598, Accuracy Top1 = 0.2500, Top5 = 0.5900
+[2017-11-10 07:17:56]:
+-Iter 5750, Training Loss= 2.163100, Accuracy Top1 = 0.4200, Top5 = 0.7600
+-Iter 5750, Validation Loss= 2.761651, Accuracy Top1 = 0.2800, Top5 = 0.6000
+[2017-11-10 07:18:57]:
+-Iter 5800, Training Loss= 2.196221, Accuracy Top1 = 0.3900, Top5 = 0.7300
+-Iter 5800, Validation Loss= 2.602541, Accuracy Top1 = 0.3400, Top5 = 0.6800
+[2017-11-10 07:19:58]:
+-Iter 5850, Training Loss= 2.178827, Accuracy Top1 = 0.4600, Top5 = 0.7200
+-Iter 5850, Validation Loss= 2.458413, Accuracy Top1 = 0.3400, Top5 = 0.6700
+[2017-11-10 07:21:04]:
+-Iter 5900, Training Loss= 2.293992, Accuracy Top1 = 0.4500, Top5 = 0.6800
+-Iter 5900, Validation Loss= 2.567462, Accuracy Top1 = 0.3000, Top5 = 0.6200
+[2017-11-10 07:22:09]:
+-Iter 5950, Training Loss= 2.356517, Accuracy Top1 = 0.3800, Top5 = 0.6300
+-Iter 5950, Validation Loss= 3.042840, Accuracy Top1 = 0.3000, Top5 = 0.5000
+Model saved at Iter 6000 !
+[2017-11-10 07:23:20]:
+-Iter 6000, Training Loss= 2.395041, Accuracy Top1 = 0.3300, Top5 = 0.7600
+-Iter 6000, Validation Loss= 2.798823, Accuracy Top1 = 0.3200, Top5 = 0.6200
+[2017-11-10 07:24:28]:
+-Iter 6050, Training Loss= 2.253478, Accuracy Top1 = 0.4900, Top5 = 0.7100
+-Iter 6050, Validation Loss= 2.463941, Accuracy Top1 = 0.2900, Top5 = 0.6900
+[2017-11-10 07:25:38]:
+-Iter 6100, Training Loss= 2.009044, Accuracy Top1 = 0.4200, Top5 = 0.8100
+-Iter 6100, Validation Loss= 2.320630, Accuracy Top1 = 0.4000, Top5 = 0.6800
+[2017-11-10 07:26:43]:
+-Iter 6150, Training Loss= 2.320246, Accuracy Top1 = 0.4000, Top5 = 0.6800
+-Iter 6150, Validation Loss= 2.457790, Accuracy Top1 = 0.3800, Top5 = 0.6600
+[2017-11-10 07:27:52]:
+-Iter 6200, Training Loss= 2.518202, Accuracy Top1 = 0.3700, Top5 = 0.6900
+-Iter 6200, Validation Loss= 2.529557, Accuracy Top1 = 0.3400, Top5 = 0.6400
+[2017-11-10 07:28:57]:
+-Iter 6250, Training Loss= 2.159124, Accuracy Top1 = 0.4000, Top5 = 0.7400
+-Iter 6250, Validation Loss= 2.608201, Accuracy Top1 = 0.3400, Top5 = 0.6100
+[2017-11-10 07:30:31]:
+-Iter 6300, Training Loss= 2.461016, Accuracy Top1 = 0.4100, Top5 = 0.6700
+-Iter 6300, Validation Loss= 2.156209, Accuracy Top1 = 0.4200, Top5 = 0.7400
+[2017-11-10 07:31:44]:
+-Iter 6350, Training Loss= 2.188028, Accuracy Top1 = 0.4600, Top5 = 0.6900
+-Iter 6350, Validation Loss= 2.624647, Accuracy Top1 = 0.3700, Top5 = 0.6300
+[2017-11-10 07:33:01]:
+-Iter 6400, Training Loss= 2.508848, Accuracy Top1 = 0.2900, Top5 = 0.6400
+-Iter 6400, Validation Loss= 2.510448, Accuracy Top1 = 0.3200, Top5 = 0.6300
+# Images found: 100000
+# Images found: 10000
+[2017-11-10 16:59:50]:
+-Iter 0, Training Loss= 2.349853, Accuracy Top1 = 0.4000, Top5 = 0.7000
+-Iter 0, Validation Loss= 2.557889, Accuracy Top1 = 0.3800, Top5 = 0.6500
+[2017-11-10 17:01:10]:
+-Iter 50, Training Loss= 2.287210, Accuracy Top1 = 0.4600, Top5 = 0.6800
+-Iter 50, Validation Loss= 2.543175, Accuracy Top1 = 0.3300, Top5 = 0.6500
+[2017-11-10 17:02:13]:
+-Iter 100, Training Loss= 2.128437, Accuracy Top1 = 0.4200, Top5 = 0.7500
+-Iter 100, Validation Loss= 2.832496, Accuracy Top1 = 0.3000, Top5 = 0.5800
+[2017-11-10 17:03:16]:
+-Iter 150, Training Loss= 2.243177, Accuracy Top1 = 0.4200, Top5 = 0.7100
+-Iter 150, Validation Loss= 2.463115, Accuracy Top1 = 0.4000, Top5 = 0.7100
+[2017-11-10 17:04:19]:
+-Iter 200, Training Loss= 2.543414, Accuracy Top1 = 0.3500, Top5 = 0.6900
+-Iter 200, Validation Loss= 2.484134, Accuracy Top1 = 0.3700, Top5 = 0.6400
+[2017-11-10 17:05:21]:
+-Iter 250, Training Loss= 2.244162, Accuracy Top1 = 0.3700, Top5 = 0.7200
+-Iter 250, Validation Loss= 2.517044, Accuracy Top1 = 0.3800, Top5 = 0.6500
+[2017-11-10 17:06:25]:
+-Iter 300, Training Loss= 2.493040, Accuracy Top1 = 0.3900, Top5 = 0.7100
+-Iter 300, Validation Loss= 2.815739, Accuracy Top1 = 0.3500, Top5 = 0.5500
+[2017-11-10 17:07:28]:
+-Iter 350, Training Loss= 2.066056, Accuracy Top1 = 0.5000, Top5 = 0.7100
+-Iter 350, Validation Loss= 2.508263, Accuracy Top1 = 0.4000, Top5 = 0.6400
+[2017-11-10 17:08:31]:
+-Iter 400, Training Loss= 2.534626, Accuracy Top1 = 0.3100, Top5 = 0.6600
+-Iter 400, Validation Loss= 2.425381, Accuracy Top1 = 0.3300, Top5 = 0.6700
+[2017-11-10 17:09:33]:
+-Iter 450, Training Loss= 2.462324, Accuracy Top1 = 0.3900, Top5 = 0.6800
+-Iter 450, Validation Loss= 2.657235, Accuracy Top1 = 0.3100, Top5 = 0.6300
+[2017-11-10 17:10:36]:
+-Iter 500, Training Loss= 2.093069, Accuracy Top1 = 0.4600, Top5 = 0.7800
+-Iter 500, Validation Loss= 2.608797, Accuracy Top1 = 0.3900, Top5 = 0.6400
+[2017-11-10 17:11:38]:
+-Iter 550, Training Loss= 2.159454, Accuracy Top1 = 0.4700, Top5 = 0.7200
+-Iter 550, Validation Loss= 2.218880, Accuracy Top1 = 0.4600, Top5 = 0.7300
+[2017-11-10 17:12:42]:
+-Iter 600, Training Loss= 2.522257, Accuracy Top1 = 0.4400, Top5 = 0.6700
+-Iter 600, Validation Loss= 2.386883, Accuracy Top1 = 0.3700, Top5 = 0.7400
+[2017-11-10 17:13:45]:
+-Iter 650, Training Loss= 2.229854, Accuracy Top1 = 0.4600, Top5 = 0.7500
+-Iter 650, Validation Loss= 2.307844, Accuracy Top1 = 0.4200, Top5 = 0.7400
+[2017-11-10 17:14:49]:
+-Iter 700, Training Loss= 2.273642, Accuracy Top1 = 0.3900, Top5 = 0.6900
+-Iter 700, Validation Loss= 2.957041, Accuracy Top1 = 0.2400, Top5 = 0.6000
+[2017-11-10 17:15:52]:
+-Iter 750, Training Loss= 1.961776, Accuracy Top1 = 0.4800, Top5 = 0.8300
+-Iter 750, Validation Loss= 2.678832, Accuracy Top1 = 0.3100, Top5 = 0.6500
+[2017-11-10 17:16:55]:
+-Iter 800, Training Loss= 1.954191, Accuracy Top1 = 0.4800, Top5 = 0.7700
+-Iter 800, Validation Loss= 2.525612, Accuracy Top1 = 0.3700, Top5 = 0.6700
+[2017-11-10 17:17:57]:
+-Iter 850, Training Loss= 2.166689, Accuracy Top1 = 0.4900, Top5 = 0.7400
+-Iter 850, Validation Loss= 2.410253, Accuracy Top1 = 0.3700, Top5 = 0.6700
+[2017-11-10 17:19:00]:
+-Iter 900, Training Loss= 2.181706, Accuracy Top1 = 0.4800, Top5 = 0.7000
+-Iter 900, Validation Loss= 2.607763, Accuracy Top1 = 0.2900, Top5 = 0.6300
+[2017-11-10 17:20:03]:
+-Iter 950, Training Loss= 2.313890, Accuracy Top1 = 0.3900, Top5 = 0.7300
+-Iter 950, Validation Loss= 2.887090, Accuracy Top1 = 0.3100, Top5 = 0.5700
+[2017-11-10 17:21:05]:
+-Iter 1000, Training Loss= 2.223453, Accuracy Top1 = 0.3900, Top5 = 0.7300
+-Iter 1000, Validation Loss= 2.659333, Accuracy Top1 = 0.3200, Top5 = 0.6100
+[2017-11-10 17:22:04]:
+-Iter 1050, Training Loss= 2.088478, Accuracy Top1 = 0.5200, Top5 = 0.7200
+-Iter 1050, Validation Loss= 2.375413, Accuracy Top1 = 0.3100, Top5 = 0.7100
+[2017-11-10 17:23:01]:
+-Iter 1100, Training Loss= 1.971014, Accuracy Top1 = 0.4400, Top5 = 0.7800
+-Iter 1100, Validation Loss= 2.376958, Accuracy Top1 = 0.4200, Top5 = 0.6400
+[2017-11-10 17:23:59]:
+-Iter 1150, Training Loss= 2.004105, Accuracy Top1 = 0.4500, Top5 = 0.7900
+-Iter 1150, Validation Loss= 2.318042, Accuracy Top1 = 0.4300, Top5 = 0.7100
+[2017-11-10 17:24:57]:
+-Iter 1200, Training Loss= 2.234575, Accuracy Top1 = 0.4200, Top5 = 0.7100
+-Iter 1200, Validation Loss= 2.554778, Accuracy Top1 = 0.3100, Top5 = 0.6100
+[2017-11-10 17:25:54]:
+-Iter 1250, Training Loss= 2.077267, Accuracy Top1 = 0.3800, Top5 = 0.7400
+-Iter 1250, Validation Loss= 2.420737, Accuracy Top1 = 0.4000, Top5 = 0.6900
+[2017-11-10 17:26:52]:
+-Iter 1300, Training Loss= 2.225394, Accuracy Top1 = 0.4400, Top5 = 0.7500
+-Iter 1300, Validation Loss= 1.989119, Accuracy Top1 = 0.5200, Top5 = 0.7800
+[2017-11-10 17:27:50]:
+-Iter 1350, Training Loss= 2.062019, Accuracy Top1 = 0.4400, Top5 = 0.7200
+-Iter 1350, Validation Loss= 2.551473, Accuracy Top1 = 0.4300, Top5 = 0.6900
+[2017-11-10 17:28:48]:
+-Iter 1400, Training Loss= 2.577890, Accuracy Top1 = 0.3800, Top5 = 0.6300
+-Iter 1400, Validation Loss= 2.630788, Accuracy Top1 = 0.3400, Top5 = 0.6100
+[2017-11-10 17:29:45]:
+-Iter 1450, Training Loss= 2.223349, Accuracy Top1 = 0.4000, Top5 = 0.6900
+-Iter 1450, Validation Loss= 2.323531, Accuracy Top1 = 0.3700, Top5 = 0.7300
+[2017-11-10 17:30:43]:
+-Iter 1500, Training Loss= 2.137841, Accuracy Top1 = 0.4100, Top5 = 0.7800
+-Iter 1500, Validation Loss= 2.604462, Accuracy Top1 = 0.3300, Top5 = 0.6600
+[2017-11-10 17:31:41]:
+-Iter 1550, Training Loss= 2.098227, Accuracy Top1 = 0.5400, Top5 = 0.7600
+-Iter 1550, Validation Loss= 2.510369, Accuracy Top1 = 0.3600, Top5 = 0.6700
+[2017-11-10 17:32:39]:
+-Iter 1600, Training Loss= 2.436041, Accuracy Top1 = 0.4300, Top5 = 0.7600
+-Iter 1600, Validation Loss= 3.008681, Accuracy Top1 = 0.2400, Top5 = 0.5800
+[2017-11-10 17:33:37]:
+-Iter 1650, Training Loss= 2.122551, Accuracy Top1 = 0.4300, Top5 = 0.7800
+-Iter 1650, Validation Loss= 2.233166, Accuracy Top1 = 0.4400, Top5 = 0.7200
+[2017-11-10 17:34:35]:
+-Iter 1700, Training Loss= 2.107608, Accuracy Top1 = 0.4700, Top5 = 0.7100
+-Iter 1700, Validation Loss= 2.321097, Accuracy Top1 = 0.3600, Top5 = 0.7600
+[2017-11-10 17:35:33]:
+-Iter 1750, Training Loss= 1.934487, Accuracy Top1 = 0.4100, Top5 = 0.8200
+-Iter 1750, Validation Loss= 2.853230, Accuracy Top1 = 0.3200, Top5 = 0.6000
+[2017-11-10 17:36:31]:
+-Iter 1800, Training Loss= 1.926542, Accuracy Top1 = 0.5100, Top5 = 0.7800
+-Iter 1800, Validation Loss= 2.765485, Accuracy Top1 = 0.3200, Top5 = 0.6100
+[2017-11-10 17:37:28]:
+-Iter 1850, Training Loss= 1.863271, Accuracy Top1 = 0.5400, Top5 = 0.7600
+-Iter 1850, Validation Loss= 2.422124, Accuracy Top1 = 0.4100, Top5 = 0.6100
+[2017-11-10 17:38:26]:
+-Iter 1900, Training Loss= 2.029154, Accuracy Top1 = 0.4500, Top5 = 0.7800
+-Iter 1900, Validation Loss= 2.360893, Accuracy Top1 = 0.4100, Top5 = 0.7100
+[2017-11-10 17:39:24]:
+-Iter 1950, Training Loss= 2.310383, Accuracy Top1 = 0.3900, Top5 = 0.7000
+-Iter 1950, Validation Loss= 2.529902, Accuracy Top1 = 0.3300, Top5 = 0.7300
+[2017-11-10 17:40:22]:
+-Iter 2000, Training Loss= 2.010602, Accuracy Top1 = 0.4700, Top5 = 0.7800
+-Iter 2000, Validation Loss= 2.468547, Accuracy Top1 = 0.3600, Top5 = 0.6900
+[2017-11-10 17:41:20]:
+-Iter 2050, Training Loss= 1.955782, Accuracy Top1 = 0.5400, Top5 = 0.7300
+-Iter 2050, Validation Loss= 2.225141, Accuracy Top1 = 0.4100, Top5 = 0.7200
+[2017-11-10 17:42:18]:
+-Iter 2100, Training Loss= 2.052294, Accuracy Top1 = 0.4700, Top5 = 0.7600
+-Iter 2100, Validation Loss= 2.421973, Accuracy Top1 = 0.4000, Top5 = 0.7000
+[2017-11-10 17:43:15]:
+-Iter 2150, Training Loss= 1.889585, Accuracy Top1 = 0.4600, Top5 = 0.8200
+-Iter 2150, Validation Loss= 2.129618, Accuracy Top1 = 0.4800, Top5 = 0.7500
+[2017-11-10 17:44:13]:
+-Iter 2200, Training Loss= 2.109298, Accuracy Top1 = 0.3900, Top5 = 0.7800
+-Iter 2200, Validation Loss= 2.070433, Accuracy Top1 = 0.4600, Top5 = 0.7500
+[2017-11-10 17:45:11]:
+-Iter 2250, Training Loss= 1.905201, Accuracy Top1 = 0.4100, Top5 = 0.8000
+-Iter 2250, Validation Loss= 2.343811, Accuracy Top1 = 0.3800, Top5 = 0.7300
+[2017-11-10 17:46:09]:
+-Iter 2300, Training Loss= 2.363742, Accuracy Top1 = 0.3800, Top5 = 0.7300
+-Iter 2300, Validation Loss= 2.653091, Accuracy Top1 = 0.3400, Top5 = 0.6600
+[2017-11-10 17:47:07]:
+-Iter 2350, Training Loss= 1.980114, Accuracy Top1 = 0.4800, Top5 = 0.7600
+-Iter 2350, Validation Loss= 2.452218, Accuracy Top1 = 0.3900, Top5 = 0.6500
+[2017-11-10 17:48:04]:
+-Iter 2400, Training Loss= 2.446614, Accuracy Top1 = 0.3200, Top5 = 0.6400
+-Iter 2400, Validation Loss= 2.564355, Accuracy Top1 = 0.3200, Top5 = 0.6700
+[2017-11-10 17:49:02]:
+-Iter 2450, Training Loss= 1.997141, Accuracy Top1 = 0.5000, Top5 = 0.8100
+-Iter 2450, Validation Loss= 2.339864, Accuracy Top1 = 0.3900, Top5 = 0.7100
+[2017-11-10 17:50:00]:
+-Iter 2500, Training Loss= 1.908636, Accuracy Top1 = 0.4400, Top5 = 0.8600
+-Iter 2500, Validation Loss= 2.456613, Accuracy Top1 = 0.3500, Top5 = 0.7200
+[2017-11-10 17:50:58]:
+-Iter 2550, Training Loss= 1.927296, Accuracy Top1 = 0.5300, Top5 = 0.8200
+-Iter 2550, Validation Loss= 2.327735, Accuracy Top1 = 0.3900, Top5 = 0.7000
+[2017-11-10 17:51:56]:
+-Iter 2600, Training Loss= 1.888159, Accuracy Top1 = 0.5600, Top5 = 0.8500
+-Iter 2600, Validation Loss= 2.148241, Accuracy Top1 = 0.4300, Top5 = 0.7700
+[2017-11-10 17:52:54]:
+-Iter 2650, Training Loss= 2.017914, Accuracy Top1 = 0.4400, Top5 = 0.7900
+-Iter 2650, Validation Loss= 2.364746, Accuracy Top1 = 0.3400, Top5 = 0.7000
+[2017-11-10 17:53:52]:
+-Iter 2700, Training Loss= 2.081963, Accuracy Top1 = 0.4500, Top5 = 0.7400
+-Iter 2700, Validation Loss= 2.049896, Accuracy Top1 = 0.4300, Top5 = 0.7800
+[2017-11-10 17:54:49]:
+-Iter 2750, Training Loss= 1.643058, Accuracy Top1 = 0.5500, Top5 = 0.8800
+-Iter 2750, Validation Loss= 2.437937, Accuracy Top1 = 0.4000, Top5 = 0.6600
+[2017-11-10 17:55:47]:
+-Iter 2800, Training Loss= 1.822855, Accuracy Top1 = 0.5200, Top5 = 0.7300
+-Iter 2800, Validation Loss= 2.328727, Accuracy Top1 = 0.3500, Top5 = 0.6700
+[2017-11-10 17:56:45]:
+-Iter 2850, Training Loss= 1.837628, Accuracy Top1 = 0.5000, Top5 = 0.7800
+-Iter 2850, Validation Loss= 2.373142, Accuracy Top1 = 0.3400, Top5 = 0.6800
+[2017-11-10 17:57:43]:
+-Iter 2900, Training Loss= 1.925823, Accuracy Top1 = 0.5500, Top5 = 0.7800
+-Iter 2900, Validation Loss= 2.531982, Accuracy Top1 = 0.3500, Top5 = 0.6800
+[2017-11-10 17:58:41]:
+-Iter 2950, Training Loss= 1.990991, Accuracy Top1 = 0.5100, Top5 = 0.7500
+-Iter 2950, Validation Loss= 2.548523, Accuracy Top1 = 0.3800, Top5 = 0.6500
+Model saved at Iter 3000 !
+[2017-11-10 17:59:40]:
+-Iter 3000, Training Loss= 1.973836, Accuracy Top1 = 0.5500, Top5 = 0.8000
+-Iter 3000, Validation Loss= 2.617041, Accuracy Top1 = 0.2400, Top5 = 0.6700
+[2017-11-10 18:00:38]:
+-Iter 3050, Training Loss= 1.876530, Accuracy Top1 = 0.5400, Top5 = 0.7700
+-Iter 3050, Validation Loss= 2.470502, Accuracy Top1 = 0.3900, Top5 = 0.6100
+[2017-11-10 18:01:35]:
+-Iter 3100, Training Loss= 1.832443, Accuracy Top1 = 0.5000, Top5 = 0.8400
+-Iter 3100, Validation Loss= 2.230296, Accuracy Top1 = 0.3800, Top5 = 0.7400
+[2017-11-10 18:02:33]:
+-Iter 3150, Training Loss= 1.828320, Accuracy Top1 = 0.5200, Top5 = 0.8000
+-Iter 3150, Validation Loss= 2.291448, Accuracy Top1 = 0.4100, Top5 = 0.7400
+[2017-11-10 18:03:30]:
+-Iter 3200, Training Loss= 1.923126, Accuracy Top1 = 0.5000, Top5 = 0.8000
+-Iter 3200, Validation Loss= 2.415801, Accuracy Top1 = 0.3900, Top5 = 0.7000
+[2017-11-10 18:04:28]:
+-Iter 3250, Training Loss= 1.701523, Accuracy Top1 = 0.5000, Top5 = 0.8200
+-Iter 3250, Validation Loss= 2.402408, Accuracy Top1 = 0.4400, Top5 = 0.6700
+[2017-11-10 18:05:25]:
+-Iter 3300, Training Loss= 2.194218, Accuracy Top1 = 0.4300, Top5 = 0.7500
+-Iter 3300, Validation Loss= 2.539765, Accuracy Top1 = 0.3700, Top5 = 0.7000
+[2017-11-10 18:06:23]:
+-Iter 3350, Training Loss= 1.821435, Accuracy Top1 = 0.5100, Top5 = 0.7800
+-Iter 3350, Validation Loss= 2.889292, Accuracy Top1 = 0.2800, Top5 = 0.6100
+[2017-11-10 18:07:20]:
+-Iter 3400, Training Loss= 2.267209, Accuracy Top1 = 0.4300, Top5 = 0.6800
+-Iter 3400, Validation Loss= 2.434757, Accuracy Top1 = 0.4000, Top5 = 0.6500
+[2017-11-10 18:08:18]:
+-Iter 3450, Training Loss= 1.890809, Accuracy Top1 = 0.5200, Top5 = 0.8000
+-Iter 3450, Validation Loss= 2.424922, Accuracy Top1 = 0.3400, Top5 = 0.6800
+[2017-11-10 18:09:15]:
+-Iter 3500, Training Loss= 1.778089, Accuracy Top1 = 0.5600, Top5 = 0.8400
+-Iter 3500, Validation Loss= 2.504208, Accuracy Top1 = 0.3000, Top5 = 0.6600
+[2017-11-10 18:10:13]:
+-Iter 3550, Training Loss= 1.894341, Accuracy Top1 = 0.4900, Top5 = 0.7700
+-Iter 3550, Validation Loss= 2.311314, Accuracy Top1 = 0.3500, Top5 = 0.7300
+[2017-11-10 18:11:10]:
+-Iter 3600, Training Loss= 1.727586, Accuracy Top1 = 0.6400, Top5 = 0.8600
+-Iter 3600, Validation Loss= 2.421594, Accuracy Top1 = 0.4500, Top5 = 0.6800
+[2017-11-10 18:12:08]:
+-Iter 3650, Training Loss= 1.755075, Accuracy Top1 = 0.5400, Top5 = 0.8300
+-Iter 3650, Validation Loss= 1.966395, Accuracy Top1 = 0.4700, Top5 = 0.7900
+[2017-11-10 18:13:05]:
+-Iter 3700, Training Loss= 2.033069, Accuracy Top1 = 0.4500, Top5 = 0.7700
+-Iter 3700, Validation Loss= 2.278721, Accuracy Top1 = 0.4000, Top5 = 0.7100
+[2017-11-10 18:14:03]:
+-Iter 3750, Training Loss= 1.683831, Accuracy Top1 = 0.5100, Top5 = 0.8200
+-Iter 3750, Validation Loss= 2.323555, Accuracy Top1 = 0.4000, Top5 = 0.6900
+[2017-11-10 18:15:00]:
+-Iter 3800, Training Loss= 1.678307, Accuracy Top1 = 0.5300, Top5 = 0.8300
+-Iter 3800, Validation Loss= 2.401841, Accuracy Top1 = 0.3700, Top5 = 0.6700
+[2017-11-10 18:15:58]:
+-Iter 3850, Training Loss= 1.692314, Accuracy Top1 = 0.5300, Top5 = 0.8300
+-Iter 3850, Validation Loss= 2.505038, Accuracy Top1 = 0.3800, Top5 = 0.6700
+[2017-11-10 18:16:56]:
+-Iter 3900, Training Loss= 1.817005, Accuracy Top1 = 0.5100, Top5 = 0.8000
+-Iter 3900, Validation Loss= 2.607933, Accuracy Top1 = 0.3500, Top5 = 0.6300
+[2017-11-10 18:17:53]:
+-Iter 3950, Training Loss= 1.925516, Accuracy Top1 = 0.4900, Top5 = 0.7400
+-Iter 3950, Validation Loss= 2.548854, Accuracy Top1 = 0.3500, Top5 = 0.6800
+[2017-11-10 18:18:51]:
+-Iter 4000, Training Loss= 1.903620, Accuracy Top1 = 0.4900, Top5 = 0.8200
+-Iter 4000, Validation Loss= 2.599330, Accuracy Top1 = 0.3100, Top5 = 0.6400
+[2017-11-10 18:19:48]:
+-Iter 4050, Training Loss= 1.679398, Accuracy Top1 = 0.6300, Top5 = 0.8100
+-Iter 4050, Validation Loss= 2.202626, Accuracy Top1 = 0.4700, Top5 = 0.7600
+[2017-11-10 18:20:46]:
+-Iter 4100, Training Loss= 1.636462, Accuracy Top1 = 0.5400, Top5 = 0.8600
+-Iter 4100, Validation Loss= 2.565354, Accuracy Top1 = 0.3700, Top5 = 0.6800
+[2017-11-10 18:21:43]:
+-Iter 4150, Training Loss= 1.676282, Accuracy Top1 = 0.5100, Top5 = 0.8700
+-Iter 4150, Validation Loss= 1.885013, Accuracy Top1 = 0.4700, Top5 = 0.7500
+[2017-11-10 18:22:41]:
+-Iter 4200, Training Loss= 1.949039, Accuracy Top1 = 0.5100, Top5 = 0.8100
+-Iter 4200, Validation Loss= 2.458750, Accuracy Top1 = 0.3700, Top5 = 0.6600
+[2017-11-10 18:23:38]:
+-Iter 4250, Training Loss= 1.801613, Accuracy Top1 = 0.4700, Top5 = 0.8400
+-Iter 4250, Validation Loss= 2.283300, Accuracy Top1 = 0.3700, Top5 = 0.7300
+[2017-11-10 18:24:36]:
+-Iter 4300, Training Loss= 1.990962, Accuracy Top1 = 0.4800, Top5 = 0.8100
+-Iter 4300, Validation Loss= 2.578227, Accuracy Top1 = 0.3700, Top5 = 0.6700
+[2017-11-10 18:25:34]:
+-Iter 4350, Training Loss= 1.875483, Accuracy Top1 = 0.5100, Top5 = 0.7600
+-Iter 4350, Validation Loss= 2.369574, Accuracy Top1 = 0.3900, Top5 = 0.6500
+[2017-11-10 18:26:31]:
+-Iter 4400, Training Loss= 2.096642, Accuracy Top1 = 0.4800, Top5 = 0.7200
+-Iter 4400, Validation Loss= 2.166579, Accuracy Top1 = 0.4300, Top5 = 0.7800
+[2017-11-10 18:27:29]:
+-Iter 4450, Training Loss= 1.683912, Accuracy Top1 = 0.5400, Top5 = 0.8100
+-Iter 4450, Validation Loss= 2.302869, Accuracy Top1 = 0.4100, Top5 = 0.6500
+[2017-11-10 18:28:26]:
+-Iter 4500, Training Loss= 1.761511, Accuracy Top1 = 0.5000, Top5 = 0.8500
+-Iter 4500, Validation Loss= 2.528302, Accuracy Top1 = 0.3700, Top5 = 0.7000
+[2017-11-10 18:29:24]:
+-Iter 4550, Training Loss= 1.693415, Accuracy Top1 = 0.5200, Top5 = 0.8300
+-Iter 4550, Validation Loss= 2.214586, Accuracy Top1 = 0.4600, Top5 = 0.7200
+[2017-11-10 18:30:21]:
+-Iter 4600, Training Loss= 1.605909, Accuracy Top1 = 0.5600, Top5 = 0.8200
+-Iter 4600, Validation Loss= 2.265623, Accuracy Top1 = 0.3800, Top5 = 0.7700
+[2017-11-10 18:31:19]:
+-Iter 4650, Training Loss= 1.779202, Accuracy Top1 = 0.5300, Top5 = 0.8500
+-Iter 4650, Validation Loss= 2.558054, Accuracy Top1 = 0.3700, Top5 = 0.6100
+[2017-11-10 18:32:17]:
+-Iter 4700, Training Loss= 1.776573, Accuracy Top1 = 0.4600, Top5 = 0.7900
+-Iter 4700, Validation Loss= 2.844271, Accuracy Top1 = 0.4000, Top5 = 0.6100
+[2017-11-10 18:33:14]:
+-Iter 4750, Training Loss= 1.557161, Accuracy Top1 = 0.6200, Top5 = 0.8600
+-Iter 4750, Validation Loss= 2.022058, Accuracy Top1 = 0.4500, Top5 = 0.7700
+[2017-11-10 18:34:12]:
+-Iter 4800, Training Loss= 1.583341, Accuracy Top1 = 0.5200, Top5 = 0.8700
+-Iter 4800, Validation Loss= 2.333449, Accuracy Top1 = 0.4100, Top5 = 0.7600
+[2017-11-10 18:35:09]:
+-Iter 4850, Training Loss= 1.491187, Accuracy Top1 = 0.5900, Top5 = 0.8400
+-Iter 4850, Validation Loss= 2.714673, Accuracy Top1 = 0.3400, Top5 = 0.6700
+[2017-11-10 18:36:07]:
+-Iter 4900, Training Loss= 1.628032, Accuracy Top1 = 0.5600, Top5 = 0.8400
+-Iter 4900, Validation Loss= 2.259290, Accuracy Top1 = 0.3900, Top5 = 0.7000
+[2017-11-10 18:37:04]:
+-Iter 4950, Training Loss= 1.867804, Accuracy Top1 = 0.5200, Top5 = 0.7700
+-Iter 4950, Validation Loss= 2.534950, Accuracy Top1 = 0.4100, Top5 = 0.7000
+[2017-11-10 18:38:02]:
+-Iter 5000, Training Loss= 1.681238, Accuracy Top1 = 0.5400, Top5 = 0.8100
+-Iter 5000, Validation Loss= 2.342197, Accuracy Top1 = 0.4000, Top5 = 0.7500
+[2017-11-10 18:39:00]:
+-Iter 5050, Training Loss= 1.615160, Accuracy Top1 = 0.6100, Top5 = 0.8100
+-Iter 5050, Validation Loss= 2.621167, Accuracy Top1 = 0.3900, Top5 = 0.6500
+[2017-11-10 18:39:57]:
+-Iter 5100, Training Loss= 1.439880, Accuracy Top1 = 0.5800, Top5 = 0.8700
+-Iter 5100, Validation Loss= 2.865134, Accuracy Top1 = 0.3300, Top5 = 0.6000
+[2017-11-10 18:40:55]:
+-Iter 5150, Training Loss= 1.529614, Accuracy Top1 = 0.5700, Top5 = 0.8700
+-Iter 5150, Validation Loss= 2.208702, Accuracy Top1 = 0.4800, Top5 = 0.7200
+[2017-11-10 18:41:52]:
+-Iter 5200, Training Loss= 1.839197, Accuracy Top1 = 0.5400, Top5 = 0.8000
+-Iter 5200, Validation Loss= 2.489827, Accuracy Top1 = 0.3700, Top5 = 0.7400
+[2017-11-10 18:42:50]:
+-Iter 5250, Training Loss= 1.591064, Accuracy Top1 = 0.4800, Top5 = 0.9300
+-Iter 5250, Validation Loss= 2.554968, Accuracy Top1 = 0.3600, Top5 = 0.6700
+[2017-11-10 18:43:47]:
+-Iter 5300, Training Loss= 2.006769, Accuracy Top1 = 0.4400, Top5 = 0.8100
+-Iter 5300, Validation Loss= 2.900414, Accuracy Top1 = 0.3300, Top5 = 0.5900
+[2017-11-10 18:44:45]:
+-Iter 5350, Training Loss= 1.450665, Accuracy Top1 = 0.6200, Top5 = 0.8800
+-Iter 5350, Validation Loss= 2.295504, Accuracy Top1 = 0.3700, Top5 = 0.6800
+[2017-11-10 18:45:45]:
+-Iter 5400, Training Loss= 1.862118, Accuracy Top1 = 0.4900, Top5 = 0.8000
+-Iter 5400, Validation Loss= 2.393357, Accuracy Top1 = 0.3900, Top5 = 0.6700
+[2017-11-10 18:46:45]:
+-Iter 5450, Training Loss= 1.568941, Accuracy Top1 = 0.5400, Top5 = 0.8500
+-Iter 5450, Validation Loss= 2.485345, Accuracy Top1 = 0.3600, Top5 = 0.6600
+[2017-11-10 18:47:46]:
+-Iter 5500, Training Loss= 1.570802, Accuracy Top1 = 0.5600, Top5 = 0.8600
+-Iter 5500, Validation Loss= 2.392127, Accuracy Top1 = 0.4000, Top5 = 0.7000
+[2017-11-10 18:48:47]:
+-Iter 5550, Training Loss= 1.703087, Accuracy Top1 = 0.5500, Top5 = 0.8300
+-Iter 5550, Validation Loss= 2.241776, Accuracy Top1 = 0.4600, Top5 = 0.7400
+[2017-11-10 18:49:47]:
+-Iter 5600, Training Loss= 1.520146, Accuracy Top1 = 0.6400, Top5 = 0.8600
+-Iter 5600, Validation Loss= 2.216395, Accuracy Top1 = 0.4200, Top5 = 0.7800
+[2017-11-10 18:50:45]:
+-Iter 5650, Training Loss= 1.687416, Accuracy Top1 = 0.5300, Top5 = 0.8300
+-Iter 5650, Validation Loss= 2.384859, Accuracy Top1 = 0.4200, Top5 = 0.7200
+[2017-11-10 18:51:42]:
+-Iter 5700, Training Loss= 1.734039, Accuracy Top1 = 0.5000, Top5 = 0.8100
+-Iter 5700, Validation Loss= 2.939950, Accuracy Top1 = 0.3000, Top5 = 0.5900
+[2017-11-10 18:52:41]:
+-Iter 5750, Training Loss= 1.372174, Accuracy Top1 = 0.6300, Top5 = 0.8700
+-Iter 5750, Validation Loss= 2.524816, Accuracy Top1 = 0.3300, Top5 = 0.7100
+[2017-11-10 18:53:38]:
+-Iter 5800, Training Loss= 1.335535, Accuracy Top1 = 0.6000, Top5 = 0.8900
+-Iter 5800, Validation Loss= 2.354382, Accuracy Top1 = 0.4000, Top5 = 0.7100
+[2017-11-10 18:54:37]:
+-Iter 5850, Training Loss= 1.452533, Accuracy Top1 = 0.5400, Top5 = 0.8600
+-Iter 5850, Validation Loss= 2.296846, Accuracy Top1 = 0.3900, Top5 = 0.6900
+[2017-11-10 18:55:34]:
+-Iter 5900, Training Loss= 1.446286, Accuracy Top1 = 0.6300, Top5 = 0.8700
+-Iter 5900, Validation Loss= 2.407207, Accuracy Top1 = 0.3600, Top5 = 0.6900
+[2017-11-10 18:56:32]:
+-Iter 5950, Training Loss= 1.675087, Accuracy Top1 = 0.5700, Top5 = 0.7900
+-Iter 5950, Validation Loss= 2.992528, Accuracy Top1 = 0.3500, Top5 = 0.5900
+Model saved at Iter 6000 !
+[2017-11-10 18:57:38]:
+-Iter 6000, Training Loss= 1.624844, Accuracy Top1 = 0.6000, Top5 = 0.8200
+-Iter 6000, Validation Loss= 2.655547, Accuracy Top1 = 0.3500, Top5 = 0.6400
+[2017-11-10 18:58:41]:
+-Iter 6050, Training Loss= 1.528716, Accuracy Top1 = 0.6300, Top5 = 0.8000
+-Iter 6050, Validation Loss= 2.360358, Accuracy Top1 = 0.3900, Top5 = 0.7000
+[2017-11-10 18:59:44]:
+-Iter 6100, Training Loss= 1.438839, Accuracy Top1 = 0.6000, Top5 = 0.9000
+-Iter 6100, Validation Loss= 2.294546, Accuracy Top1 = 0.4600, Top5 = 0.7100
+[2017-11-10 19:00:50]:
+-Iter 6150, Training Loss= 1.459036, Accuracy Top1 = 0.5900, Top5 = 0.8800
+-Iter 6150, Validation Loss= 2.336180, Accuracy Top1 = 0.3800, Top5 = 0.7500
+[2017-11-10 19:01:55]:
+-Iter 6200, Training Loss= 1.805710, Accuracy Top1 = 0.5000, Top5 = 0.8200
+-Iter 6200, Validation Loss= 2.596019, Accuracy Top1 = 0.3200, Top5 = 0.6200
+[2017-11-10 19:03:00]:
+-Iter 6250, Training Loss= 1.375172, Accuracy Top1 = 0.6300, Top5 = 0.9100
+-Iter 6250, Validation Loss= 2.618730, Accuracy Top1 = 0.4300, Top5 = 0.6600
+[2017-11-10 19:04:05]:
+-Iter 6300, Training Loss= 2.000378, Accuracy Top1 = 0.5100, Top5 = 0.8000
+-Iter 6300, Validation Loss= 2.223651, Accuracy Top1 = 0.4500, Top5 = 0.7500
+[2017-11-10 19:05:09]:
+-Iter 6350, Training Loss= 1.542335, Accuracy Top1 = 0.6000, Top5 = 0.8500
+-Iter 6350, Validation Loss= 2.659209, Accuracy Top1 = 0.3900, Top5 = 0.6800
+[2017-11-10 19:06:13]:
+-Iter 6400, Training Loss= 1.864938, Accuracy Top1 = 0.5000, Top5 = 0.7800
+-Iter 6400, Validation Loss= 2.438631, Accuracy Top1 = 0.3800, Top5 = 0.6900
+[2017-11-10 19:07:18]:
+-Iter 6450, Training Loss= 1.391178, Accuracy Top1 = 0.6300, Top5 = 0.9000
+-Iter 6450, Validation Loss= 2.188038, Accuracy Top1 = 0.4400, Top5 = 0.7700
+[2017-11-10 19:08:24]:
+-Iter 6500, Training Loss= 1.537721, Accuracy Top1 = 0.5900, Top5 = 0.8600
+-Iter 6500, Validation Loss= 2.499425, Accuracy Top1 = 0.3400, Top5 = 0.7500
+[2017-11-10 19:09:30]:
+-Iter 6550, Training Loss= 1.619136, Accuracy Top1 = 0.5700, Top5 = 0.8100
+-Iter 6550, Validation Loss= 2.636753, Accuracy Top1 = 0.3400, Top5 = 0.6700
+[2017-11-10 19:10:35]:
+-Iter 6600, Training Loss= 1.488578, Accuracy Top1 = 0.6200, Top5 = 0.8800
+-Iter 6600, Validation Loss= 2.674013, Accuracy Top1 = 0.3000, Top5 = 0.7000
+[2017-11-10 19:11:42]:
+-Iter 6650, Training Loss= 1.646869, Accuracy Top1 = 0.5400, Top5 = 0.8600
+-Iter 6650, Validation Loss= 2.346730, Accuracy Top1 = 0.4100, Top5 = 0.7200
+[2017-11-10 19:12:46]:
+-Iter 6700, Training Loss= 1.422449, Accuracy Top1 = 0.6200, Top5 = 0.8400
+-Iter 6700, Validation Loss= 2.173581, Accuracy Top1 = 0.4300, Top5 = 0.7400
+[2017-11-10 19:13:54]:
+-Iter 6750, Training Loss= 1.315496, Accuracy Top1 = 0.6400, Top5 = 0.9100
+-Iter 6750, Validation Loss= 2.761878, Accuracy Top1 = 0.3200, Top5 = 0.6500
+[2017-11-10 19:15:01]:
+-Iter 6800, Training Loss= 1.261396, Accuracy Top1 = 0.6300, Top5 = 0.8900
+-Iter 6800, Validation Loss= 2.881464, Accuracy Top1 = 0.3100, Top5 = 0.6000
+[2017-11-10 19:16:09]:
+-Iter 6850, Training Loss= 1.338388, Accuracy Top1 = 0.6000, Top5 = 0.8500
+-Iter 6850, Validation Loss= 2.185139, Accuracy Top1 = 0.4800, Top5 = 0.7400
+[2017-11-10 19:17:24]:
+-Iter 6900, Training Loss= 1.524086, Accuracy Top1 = 0.6200, Top5 = 0.8300
+-Iter 6900, Validation Loss= 2.390033, Accuracy Top1 = 0.4100, Top5 = 0.6600
+# Images found: 100000
+# Images found: 10000
+[2017-11-12 08:01:53]:
+-Iter 12000, Training Loss= 1.446257, Accuracy Top1 = 0.6200, Top5 = 0.8600
+-Iter 12000, Validation Loss= 2.395219, Accuracy Top1 = 0.3800, Top5 = 0.7000
+[2017-11-12 08:03:12]:
+-Iter 12050, Training Loss= 1.454628, Accuracy Top1 = 0.6300, Top5 = 0.8200
+-Iter 12050, Validation Loss= 2.506786, Accuracy Top1 = 0.3800, Top5 = 0.6600
+[2017-11-12 08:04:14]:
+-Iter 12100, Training Loss= 1.431352, Accuracy Top1 = 0.5900, Top5 = 0.8700
+-Iter 12100, Validation Loss= 2.772375, Accuracy Top1 = 0.3600, Top5 = 0.6000
+[2017-11-12 08:05:16]:
+-Iter 12150, Training Loss= 1.416251, Accuracy Top1 = 0.5700, Top5 = 0.8800
+-Iter 12150, Validation Loss= 2.193749, Accuracy Top1 = 0.4300, Top5 = 0.7300
+[2017-11-12 08:06:19]:
+-Iter 12200, Training Loss= 1.773764, Accuracy Top1 = 0.4800, Top5 = 0.8300
+-Iter 12200, Validation Loss= 2.453105, Accuracy Top1 = 0.3800, Top5 = 0.7000
+[2017-11-12 08:07:21]:
+-Iter 12250, Training Loss= 1.510376, Accuracy Top1 = 0.5500, Top5 = 0.8800
+-Iter 12250, Validation Loss= 2.427487, Accuracy Top1 = 0.3600, Top5 = 0.6800
+[2017-11-12 08:08:23]:
+-Iter 12300, Training Loss= 1.655149, Accuracy Top1 = 0.5400, Top5 = 0.8100
+-Iter 12300, Validation Loss= 2.734406, Accuracy Top1 = 0.3500, Top5 = 0.6600
+[2017-11-12 08:09:25]:
+-Iter 12350, Training Loss= 1.296683, Accuracy Top1 = 0.6100, Top5 = 0.9000
+-Iter 12350, Validation Loss= 2.331791, Accuracy Top1 = 0.4400, Top5 = 0.7700
+[2017-11-12 08:10:27]:
+-Iter 12400, Training Loss= 1.673153, Accuracy Top1 = 0.5800, Top5 = 0.8100
+-Iter 12400, Validation Loss= 2.373604, Accuracy Top1 = 0.4000, Top5 = 0.6700
+[2017-11-12 08:11:29]:
+-Iter 12450, Training Loss= 1.422052, Accuracy Top1 = 0.6300, Top5 = 0.8800
+-Iter 12450, Validation Loss= 2.510645, Accuracy Top1 = 0.3900, Top5 = 0.6700
+[2017-11-12 08:12:32]:
+-Iter 12500, Training Loss= 1.558987, Accuracy Top1 = 0.5500, Top5 = 0.8300
+-Iter 12500, Validation Loss= 2.481955, Accuracy Top1 = 0.4100, Top5 = 0.6800
+[2017-11-12 08:13:34]:
+-Iter 12550, Training Loss= 1.568403, Accuracy Top1 = 0.5800, Top5 = 0.8200
+-Iter 12550, Validation Loss= 2.143815, Accuracy Top1 = 0.4700, Top5 = 0.7400
+[2017-11-12 08:14:36]:
+-Iter 12600, Training Loss= 1.474932, Accuracy Top1 = 0.6800, Top5 = 0.8600
+-Iter 12600, Validation Loss= 2.244192, Accuracy Top1 = 0.4300, Top5 = 0.7900
+[2017-11-12 08:15:39]:
+-Iter 12650, Training Loss= 1.565061, Accuracy Top1 = 0.5600, Top5 = 0.8700
+-Iter 12650, Validation Loss= 2.224830, Accuracy Top1 = 0.4600, Top5 = 0.7700
+[2017-11-12 08:16:42]:
+-Iter 12700, Training Loss= 1.544169, Accuracy Top1 = 0.5400, Top5 = 0.8500
+-Iter 12700, Validation Loss= 2.927124, Accuracy Top1 = 0.3000, Top5 = 0.6400
+[2017-11-12 08:17:44]:
+-Iter 12750, Training Loss= 1.259682, Accuracy Top1 = 0.6700, Top5 = 0.9300
+-Iter 12750, Validation Loss= 2.421515, Accuracy Top1 = 0.4500, Top5 = 0.7200
+[2017-11-12 08:18:46]:
+-Iter 12800, Training Loss= 1.302111, Accuracy Top1 = 0.5800, Top5 = 0.8700
+-Iter 12800, Validation Loss= 2.504743, Accuracy Top1 = 0.3700, Top5 = 0.6600
+[2017-11-12 08:19:48]:
+-Iter 12850, Training Loss= 1.376396, Accuracy Top1 = 0.6100, Top5 = 0.8700
+-Iter 12850, Validation Loss= 2.281546, Accuracy Top1 = 0.3600, Top5 = 0.7100
+[2017-11-12 08:20:50]:
+-Iter 12900, Training Loss= 1.333247, Accuracy Top1 = 0.6700, Top5 = 0.8800
+-Iter 12900, Validation Loss= 2.429013, Accuracy Top1 = 0.3900, Top5 = 0.6900
+[2017-11-12 08:21:52]:
+-Iter 12950, Training Loss= 1.412480, Accuracy Top1 = 0.6300, Top5 = 0.8800
+-Iter 12950, Validation Loss= 2.934367, Accuracy Top1 = 0.3700, Top5 = 0.6400
+[2017-11-12 08:22:54]:
+-Iter 13000, Training Loss= 1.476076, Accuracy Top1 = 0.6400, Top5 = 0.8500
+-Iter 13000, Validation Loss= 2.624285, Accuracy Top1 = 0.3400, Top5 = 0.6300
+[2017-11-12 08:23:52]:
+-Iter 13050, Training Loss= 1.331719, Accuracy Top1 = 0.6700, Top5 = 0.8800
+-Iter 13050, Validation Loss= 2.375044, Accuracy Top1 = 0.3900, Top5 = 0.7000
+[2017-11-12 08:24:50]:
+-Iter 13100, Training Loss= 1.284923, Accuracy Top1 = 0.5700, Top5 = 0.9000
+-Iter 13100, Validation Loss= 2.314675, Accuracy Top1 = 0.4100, Top5 = 0.7400
+[2017-11-12 08:25:49]:
+-Iter 13150, Training Loss= 1.332205, Accuracy Top1 = 0.6400, Top5 = 0.8700
+-Iter 13150, Validation Loss= 2.335528, Accuracy Top1 = 0.4200, Top5 = 0.7300
+[2017-11-12 08:26:47]:
+-Iter 13200, Training Loss= 1.542741, Accuracy Top1 = 0.5300, Top5 = 0.9000
+-Iter 13200, Validation Loss= 2.643424, Accuracy Top1 = 0.3600, Top5 = 0.6100
+[2017-11-12 08:27:45]:
+-Iter 13250, Training Loss= 1.443940, Accuracy Top1 = 0.5300, Top5 = 0.9100
+-Iter 13250, Validation Loss= 2.693131, Accuracy Top1 = 0.4000, Top5 = 0.6500
+[2017-11-12 08:28:43]:
+-Iter 13300, Training Loss= 1.738850, Accuracy Top1 = 0.5400, Top5 = 0.8200
+-Iter 13300, Validation Loss= 2.257667, Accuracy Top1 = 0.4500, Top5 = 0.7700
+[2017-11-12 08:29:41]:
+-Iter 13350, Training Loss= 1.165271, Accuracy Top1 = 0.7100, Top5 = 0.8900
+-Iter 13350, Validation Loss= 2.503176, Accuracy Top1 = 0.4100, Top5 = 0.7300
+[2017-11-12 08:30:39]:
+-Iter 13400, Training Loss= 1.678954, Accuracy Top1 = 0.5900, Top5 = 0.8000
+-Iter 13400, Validation Loss= 2.591470, Accuracy Top1 = 0.4000, Top5 = 0.6700
+[2017-11-12 08:31:37]:
+-Iter 13450, Training Loss= 1.362220, Accuracy Top1 = 0.6000, Top5 = 0.9100
+-Iter 13450, Validation Loss= 2.114125, Accuracy Top1 = 0.4500, Top5 = 0.7800
+[2017-11-12 08:32:35]:
+-Iter 13500, Training Loss= 1.607394, Accuracy Top1 = 0.5700, Top5 = 0.8600
+-Iter 13500, Validation Loss= 2.621196, Accuracy Top1 = 0.3000, Top5 = 0.7100
+[2017-11-12 08:33:34]:
+-Iter 13550, Training Loss= 1.450885, Accuracy Top1 = 0.5800, Top5 = 0.8600
+-Iter 13550, Validation Loss= 2.645713, Accuracy Top1 = 0.4000, Top5 = 0.6700
+[2017-11-12 08:34:32]:
+-Iter 13600, Training Loss= 1.556086, Accuracy Top1 = 0.6600, Top5 = 0.8500
+-Iter 13600, Validation Loss= 2.835080, Accuracy Top1 = 0.3100, Top5 = 0.6200
+[2017-11-12 08:35:30]:
+-Iter 13650, Training Loss= 1.514428, Accuracy Top1 = 0.6100, Top5 = 0.8900
+-Iter 13650, Validation Loss= 2.378079, Accuracy Top1 = 0.4200, Top5 = 0.7200
+[2017-11-12 08:36:28]:
+-Iter 13700, Training Loss= 1.376728, Accuracy Top1 = 0.5900, Top5 = 0.8600
+-Iter 13700, Validation Loss= 2.211271, Accuracy Top1 = 0.3800, Top5 = 0.7800
+[2017-11-12 08:37:27]:
+-Iter 13750, Training Loss= 1.167603, Accuracy Top1 = 0.6400, Top5 = 0.9400
+-Iter 13750, Validation Loss= 2.990638, Accuracy Top1 = 0.3400, Top5 = 0.6300
+[2017-11-12 08:38:25]:
+-Iter 13800, Training Loss= 1.187967, Accuracy Top1 = 0.6200, Top5 = 0.9100
+-Iter 13800, Validation Loss= 2.865248, Accuracy Top1 = 0.3600, Top5 = 0.6200
+[2017-11-12 08:39:23]:
+-Iter 13850, Training Loss= 1.248286, Accuracy Top1 = 0.6300, Top5 = 0.9300
+-Iter 13850, Validation Loss= 2.181774, Accuracy Top1 = 0.4800, Top5 = 0.7700
+[2017-11-12 08:40:21]:
+-Iter 13900, Training Loss= 1.266387, Accuracy Top1 = 0.6400, Top5 = 0.8800
+-Iter 13900, Validation Loss= 2.426478, Accuracy Top1 = 0.3700, Top5 = 0.6900
+[2017-11-12 08:41:19]:
+-Iter 13950, Training Loss= 1.265408, Accuracy Top1 = 0.6500, Top5 = 0.9400
+-Iter 13950, Validation Loss= 2.664068, Accuracy Top1 = 0.3500, Top5 = 0.6700
+[2017-11-12 08:42:18]:
+-Iter 14000, Training Loss= 1.303575, Accuracy Top1 = 0.6200, Top5 = 0.8700
+-Iter 14000, Validation Loss= 2.320180, Accuracy Top1 = 0.4300, Top5 = 0.7100
+[2017-11-12 08:43:16]:
+-Iter 14050, Training Loss= 1.425248, Accuracy Top1 = 0.6800, Top5 = 0.8500
+-Iter 14050, Validation Loss= 2.567517, Accuracy Top1 = 0.3400, Top5 = 0.6600
+[2017-11-12 08:44:14]:
+-Iter 14100, Training Loss= 1.497549, Accuracy Top1 = 0.6000, Top5 = 0.8800
+-Iter 14100, Validation Loss= 2.819268, Accuracy Top1 = 0.4000, Top5 = 0.6800
+[2017-11-12 08:45:12]:
+-Iter 14150, Training Loss= 1.167374, Accuracy Top1 = 0.6800, Top5 = 0.9300
+-Iter 14150, Validation Loss= 2.411933, Accuracy Top1 = 0.4000, Top5 = 0.7400
+[2017-11-12 08:46:10]:
+-Iter 14200, Training Loss= 1.656812, Accuracy Top1 = 0.5100, Top5 = 0.8700
+-Iter 14200, Validation Loss= 2.073884, Accuracy Top1 = 0.4900, Top5 = 0.7300
+[2017-11-12 08:47:09]:
+-Iter 14250, Training Loss= 1.318583, Accuracy Top1 = 0.4900, Top5 = 0.9500
+-Iter 14250, Validation Loss= 2.508052, Accuracy Top1 = 0.3900, Top5 = 0.7300
+[2017-11-12 08:48:07]:
+-Iter 14300, Training Loss= 1.546621, Accuracy Top1 = 0.5800, Top5 = 0.8500
+-Iter 14300, Validation Loss= 2.659251, Accuracy Top1 = 0.4400, Top5 = 0.7100
+[2017-11-12 08:49:05]:
+-Iter 14350, Training Loss= 1.282440, Accuracy Top1 = 0.6600, Top5 = 0.9000
+-Iter 14350, Validation Loss= 2.590116, Accuracy Top1 = 0.4200, Top5 = 0.6400
+[2017-11-12 08:50:03]:
+-Iter 14400, Training Loss= 1.494038, Accuracy Top1 = 0.5900, Top5 = 0.8600
+-Iter 14400, Validation Loss= 2.651943, Accuracy Top1 = 0.4400, Top5 = 0.6800
+[2017-11-12 08:51:01]:
+-Iter 14450, Training Loss= 1.250530, Accuracy Top1 = 0.6600, Top5 = 0.8900
+-Iter 14450, Validation Loss= 2.327152, Accuracy Top1 = 0.4400, Top5 = 0.6800
+[2017-11-12 08:52:00]:
+-Iter 14500, Training Loss= 1.436817, Accuracy Top1 = 0.6200, Top5 = 0.8900
+-Iter 14500, Validation Loss= 2.547380, Accuracy Top1 = 0.3500, Top5 = 0.6700
+[2017-11-12 08:52:58]:
+-Iter 14550, Training Loss= 1.154743, Accuracy Top1 = 0.6700, Top5 = 0.8800
+-Iter 14550, Validation Loss= 2.504836, Accuracy Top1 = 0.3800, Top5 = 0.7000
+[2017-11-12 08:53:56]:
+-Iter 14600, Training Loss= 1.370600, Accuracy Top1 = 0.6700, Top5 = 0.9200
+-Iter 14600, Validation Loss= 2.750143, Accuracy Top1 = 0.4000, Top5 = 0.6500
+[2017-11-12 08:54:54]:
+-Iter 14650, Training Loss= 1.381202, Accuracy Top1 = 0.5900, Top5 = 0.9100
+-Iter 14650, Validation Loss= 2.339371, Accuracy Top1 = 0.4800, Top5 = 0.7100
+[2017-11-12 08:55:53]:
+-Iter 14700, Training Loss= 1.330209, Accuracy Top1 = 0.6000, Top5 = 0.8800
+-Iter 14700, Validation Loss= 1.826559, Accuracy Top1 = 0.4900, Top5 = 0.8400
+[2017-11-12 08:56:51]:
+-Iter 14750, Training Loss= 1.118433, Accuracy Top1 = 0.7300, Top5 = 0.9100
+-Iter 14750, Validation Loss= 2.489393, Accuracy Top1 = 0.3900, Top5 = 0.6800
+[2017-11-12 08:57:50]:
+-Iter 14800, Training Loss= 1.216367, Accuracy Top1 = 0.6600, Top5 = 0.8900
+-Iter 14800, Validation Loss= 2.580190, Accuracy Top1 = 0.3400, Top5 = 0.7000
+[2017-11-12 08:58:48]:
+-Iter 14850, Training Loss= 1.085557, Accuracy Top1 = 0.7200, Top5 = 0.8800
+-Iter 14850, Validation Loss= 2.413785, Accuracy Top1 = 0.3700, Top5 = 0.7000
+[2017-11-12 08:59:46]:
+-Iter 14900, Training Loss= 1.350030, Accuracy Top1 = 0.5900, Top5 = 0.8700
+-Iter 14900, Validation Loss= 2.799721, Accuracy Top1 = 0.3900, Top5 = 0.6800
+[2017-11-12 09:00:44]:
+-Iter 14950, Training Loss= 1.089852, Accuracy Top1 = 0.6400, Top5 = 0.9300
+-Iter 14950, Validation Loss= 2.520720, Accuracy Top1 = 0.4000, Top5 = 0.7100
+Model saved at Iter 15000 !
+[2017-11-12 09:01:44]:
+-Iter 15000, Training Loss= 1.313141, Accuracy Top1 = 0.6900, Top5 = 0.8700
+-Iter 15000, Validation Loss= 2.620043, Accuracy Top1 = 0.3200, Top5 = 0.6500
+[2017-11-12 09:02:42]:
+-Iter 15050, Training Loss= 1.297367, Accuracy Top1 = 0.6700, Top5 = 0.8900
+-Iter 15050, Validation Loss= 2.720610, Accuracy Top1 = 0.3600, Top5 = 0.6600
+[2017-11-12 09:03:41]:
+-Iter 15100, Training Loss= 1.188136, Accuracy Top1 = 0.6500, Top5 = 0.9500
+-Iter 15100, Validation Loss= 2.462001, Accuracy Top1 = 0.3900, Top5 = 0.7400
+[2017-11-12 09:04:40]:
+-Iter 15150, Training Loss= 1.157853, Accuracy Top1 = 0.6500, Top5 = 0.9400
+-Iter 15150, Validation Loss= 2.604220, Accuracy Top1 = 0.4000, Top5 = 0.6800
+[2017-11-12 09:05:38]:
+-Iter 15200, Training Loss= 1.433514, Accuracy Top1 = 0.6300, Top5 = 0.9000
+-Iter 15200, Validation Loss= 2.308321, Accuracy Top1 = 0.4200, Top5 = 0.7400
+[2017-11-12 09:06:37]:
+-Iter 15250, Training Loss= 0.937729, Accuracy Top1 = 0.7200, Top5 = 0.9800
+-Iter 15250, Validation Loss= 2.596938, Accuracy Top1 = 0.4200, Top5 = 0.7100
+[2017-11-12 09:07:35]:
+-Iter 15300, Training Loss= 1.288886, Accuracy Top1 = 0.6600, Top5 = 0.9300
+-Iter 15300, Validation Loss= 2.641915, Accuracy Top1 = 0.4300, Top5 = 0.7400
+[2017-11-12 09:08:34]:
+-Iter 15350, Training Loss= 1.055519, Accuracy Top1 = 0.7000, Top5 = 0.9200
+-Iter 15350, Validation Loss= 2.793576, Accuracy Top1 = 0.3200, Top5 = 0.6700
+[2017-11-12 09:09:32]:
+-Iter 15400, Training Loss= 1.285547, Accuracy Top1 = 0.6400, Top5 = 0.9100
+-Iter 15400, Validation Loss= 2.541350, Accuracy Top1 = 0.3700, Top5 = 0.7400
+[2017-11-12 09:10:31]:
+-Iter 15450, Training Loss= 1.233541, Accuracy Top1 = 0.6200, Top5 = 0.9100
+-Iter 15450, Validation Loss= 2.405933, Accuracy Top1 = 0.4000, Top5 = 0.7000
+[2017-11-12 09:11:29]:
+-Iter 15500, Training Loss= 1.178928, Accuracy Top1 = 0.6600, Top5 = 0.9100
+-Iter 15500, Validation Loss= 2.497521, Accuracy Top1 = 0.3300, Top5 = 0.7200
+[2017-11-12 09:12:28]:
+-Iter 15550, Training Loss= 1.113650, Accuracy Top1 = 0.6700, Top5 = 0.9300
+-Iter 15550, Validation Loss= 2.320481, Accuracy Top1 = 0.4300, Top5 = 0.7000
+[2017-11-12 09:13:26]:
+-Iter 15600, Training Loss= 1.008461, Accuracy Top1 = 0.6900, Top5 = 0.9400
+-Iter 15600, Validation Loss= 2.533663, Accuracy Top1 = 0.4700, Top5 = 0.7000
+[2017-11-12 09:14:25]:
+-Iter 15650, Training Loss= 1.313211, Accuracy Top1 = 0.6100, Top5 = 0.8900
+-Iter 15650, Validation Loss= 2.086883, Accuracy Top1 = 0.4700, Top5 = 0.7700
+[2017-11-12 09:15:23]:
+-Iter 15700, Training Loss= 1.217851, Accuracy Top1 = 0.6700, Top5 = 0.8700
+-Iter 15700, Validation Loss= 2.471863, Accuracy Top1 = 0.4000, Top5 = 0.7500
+[2017-11-12 09:16:22]:
+-Iter 15750, Training Loss= 1.080450, Accuracy Top1 = 0.6800, Top5 = 0.9300
+-Iter 15750, Validation Loss= 2.530673, Accuracy Top1 = 0.4200, Top5 = 0.7300
+[2017-11-12 09:17:20]:
+-Iter 15800, Training Loss= 1.116234, Accuracy Top1 = 0.6700, Top5 = 0.9300
+-Iter 15800, Validation Loss= 2.737849, Accuracy Top1 = 0.3700, Top5 = 0.6600
+[2017-11-12 09:18:19]:
+-Iter 15850, Training Loss= 1.057896, Accuracy Top1 = 0.6300, Top5 = 0.9400
+-Iter 15850, Validation Loss= 2.482676, Accuracy Top1 = 0.4800, Top5 = 0.7200
+[2017-11-12 09:19:17]:
+-Iter 15900, Training Loss= 1.007369, Accuracy Top1 = 0.7200, Top5 = 0.9300
+-Iter 15900, Validation Loss= 2.871183, Accuracy Top1 = 0.3400, Top5 = 0.6600
+[2017-11-12 09:20:16]:
+-Iter 15950, Training Loss= 1.056596, Accuracy Top1 = 0.7200, Top5 = 0.9500
+-Iter 15950, Validation Loss= 2.654149, Accuracy Top1 = 0.4100, Top5 = 0.7000
+[2017-11-12 09:21:14]:
+-Iter 16000, Training Loss= 1.152993, Accuracy Top1 = 0.6700, Top5 = 0.9100
+-Iter 16000, Validation Loss= 2.541985, Accuracy Top1 = 0.3800, Top5 = 0.6900
+[2017-11-12 09:22:13]:
+-Iter 16050, Training Loss= 1.164819, Accuracy Top1 = 0.7300, Top5 = 0.8900
+-Iter 16050, Validation Loss= 2.665662, Accuracy Top1 = 0.4000, Top5 = 0.7300
+[2017-11-12 09:23:11]:
+-Iter 16100, Training Loss= 1.005414, Accuracy Top1 = 0.6800, Top5 = 0.9500
+-Iter 16100, Validation Loss= 2.815872, Accuracy Top1 = 0.3800, Top5 = 0.6700
+[2017-11-12 09:24:09]:
+-Iter 16150, Training Loss= 1.024385, Accuracy Top1 = 0.6700, Top5 = 0.9500
+-Iter 16150, Validation Loss= 2.202391, Accuracy Top1 = 0.4900, Top5 = 0.7300
+[2017-11-12 09:25:08]:
+-Iter 16200, Training Loss= 1.192317, Accuracy Top1 = 0.6700, Top5 = 0.8900
+-Iter 16200, Validation Loss= 2.471140, Accuracy Top1 = 0.4100, Top5 = 0.6900
+[2017-11-12 09:26:06]:
+-Iter 16250, Training Loss= 1.035595, Accuracy Top1 = 0.6400, Top5 = 0.9500
+-Iter 16250, Validation Loss= 2.471011, Accuracy Top1 = 0.4200, Top5 = 0.7000
+[2017-11-12 09:27:05]:
+-Iter 16300, Training Loss= 1.154852, Accuracy Top1 = 0.6600, Top5 = 0.9200
+-Iter 16300, Validation Loss= 2.960947, Accuracy Top1 = 0.3700, Top5 = 0.6100
+[2017-11-12 09:28:03]:
+-Iter 16350, Training Loss= 1.099672, Accuracy Top1 = 0.6500, Top5 = 0.9200
+-Iter 16350, Validation Loss= 2.380210, Accuracy Top1 = 0.4400, Top5 = 0.6700
+[2017-11-12 09:29:01]:
+-Iter 16400, Training Loss= 1.256622, Accuracy Top1 = 0.6400, Top5 = 0.9000
+-Iter 16400, Validation Loss= 2.280229, Accuracy Top1 = 0.5100, Top5 = 0.7800
+[2017-11-12 09:30:00]:
+-Iter 16450, Training Loss= 0.977782, Accuracy Top1 = 0.7200, Top5 = 0.9100
+-Iter 16450, Validation Loss= 2.361135, Accuracy Top1 = 0.4500, Top5 = 0.7600
+[2017-11-12 09:30:58]:
+-Iter 16500, Training Loss= 0.958840, Accuracy Top1 = 0.7200, Top5 = 0.9400
+-Iter 16500, Validation Loss= 2.502199, Accuracy Top1 = 0.4400, Top5 = 0.7100
+[2017-11-12 09:31:57]:
+-Iter 16550, Training Loss= 0.936235, Accuracy Top1 = 0.7200, Top5 = 0.9400
+-Iter 16550, Validation Loss= 2.423751, Accuracy Top1 = 0.4300, Top5 = 0.7200
+[2017-11-12 09:32:55]:
+-Iter 16600, Training Loss= 0.983148, Accuracy Top1 = 0.7400, Top5 = 0.9500
+-Iter 16600, Validation Loss= 2.429734, Accuracy Top1 = 0.3700, Top5 = 0.7400
+[2017-11-12 09:33:54]:
+-Iter 16650, Training Loss= 1.250931, Accuracy Top1 = 0.6100, Top5 = 0.9200
+-Iter 16650, Validation Loss= 2.896071, Accuracy Top1 = 0.3800, Top5 = 0.6900
+[2017-11-12 09:34:52]:
+-Iter 16700, Training Loss= 1.109912, Accuracy Top1 = 0.7100, Top5 = 0.9000
+-Iter 16700, Validation Loss= 3.227985, Accuracy Top1 = 0.3400, Top5 = 0.5800
+[2017-11-12 09:35:50]:
+-Iter 16750, Training Loss= 0.974178, Accuracy Top1 = 0.6900, Top5 = 0.9400
+-Iter 16750, Validation Loss= 2.121585, Accuracy Top1 = 0.4700, Top5 = 0.7800
+[2017-11-12 09:36:49]:
+-Iter 16800, Training Loss= 1.045655, Accuracy Top1 = 0.6900, Top5 = 0.9100
+-Iter 16800, Validation Loss= 2.438325, Accuracy Top1 = 0.4100, Top5 = 0.7100
+[2017-11-12 09:37:47]:
+-Iter 16850, Training Loss= 0.935454, Accuracy Top1 = 0.7100, Top5 = 0.9200
+-Iter 16850, Validation Loss= 2.998841, Accuracy Top1 = 0.3700, Top5 = 0.5800
+[2017-11-12 09:38:45]:
+-Iter 16900, Training Loss= 0.914236, Accuracy Top1 = 0.7800, Top5 = 0.9400
+-Iter 16900, Validation Loss= 2.496659, Accuracy Top1 = 0.3900, Top5 = 0.7800
+[2017-11-12 09:39:44]:
+-Iter 16950, Training Loss= 0.989675, Accuracy Top1 = 0.7000, Top5 = 0.9300
+-Iter 16950, Validation Loss= 2.553735, Accuracy Top1 = 0.4500, Top5 = 0.7100
+[2017-11-12 09:40:42]:
+-Iter 17000, Training Loss= 1.029304, Accuracy Top1 = 0.7200, Top5 = 0.9000
+-Iter 17000, Validation Loss= 2.624640, Accuracy Top1 = 0.3900, Top5 = 0.7200
+[2017-11-12 09:41:40]:
+-Iter 17050, Training Loss= 0.993997, Accuracy Top1 = 0.7300, Top5 = 0.9000
+-Iter 17050, Validation Loss= 2.901107, Accuracy Top1 = 0.3900, Top5 = 0.6600
+[2017-11-12 09:42:39]:
+-Iter 17100, Training Loss= 0.834647, Accuracy Top1 = 0.7600, Top5 = 0.9700
+-Iter 17100, Validation Loss= 2.758860, Accuracy Top1 = 0.3900, Top5 = 0.6400
+[2017-11-12 09:43:37]:
+-Iter 17150, Training Loss= 0.829364, Accuracy Top1 = 0.7900, Top5 = 0.9600
+-Iter 17150, Validation Loss= 2.334156, Accuracy Top1 = 0.3800, Top5 = 0.7800
+[2017-11-12 09:44:35]:
+-Iter 17200, Training Loss= 1.243610, Accuracy Top1 = 0.6600, Top5 = 0.9000
+-Iter 17200, Validation Loss= 2.729875, Accuracy Top1 = 0.3700, Top5 = 0.6700
+[2017-11-12 09:45:34]:
+-Iter 17250, Training Loss= 0.916379, Accuracy Top1 = 0.7300, Top5 = 0.9600
+-Iter 17250, Validation Loss= 2.820783, Accuracy Top1 = 0.3700, Top5 = 0.6200
+[2017-11-12 09:46:32]:
+-Iter 17300, Training Loss= 1.146165, Accuracy Top1 = 0.6200, Top5 = 0.9300
+-Iter 17300, Validation Loss= 2.825446, Accuracy Top1 = 0.3700, Top5 = 0.6600
+[2017-11-12 09:47:31]:
+-Iter 17350, Training Loss= 0.904668, Accuracy Top1 = 0.7400, Top5 = 0.9300
+-Iter 17350, Validation Loss= 2.432149, Accuracy Top1 = 0.4300, Top5 = 0.7300
+[2017-11-12 09:48:29]:
+-Iter 17400, Training Loss= 1.055825, Accuracy Top1 = 0.7400, Top5 = 0.9400
+-Iter 17400, Validation Loss= 2.450664, Accuracy Top1 = 0.4200, Top5 = 0.7400
+[2017-11-12 09:49:29]:
+-Iter 17450, Training Loss= 0.892944, Accuracy Top1 = 0.7200, Top5 = 0.9400
+-Iter 17450, Validation Loss= 2.639301, Accuracy Top1 = 0.3900, Top5 = 0.7100
+[2017-11-12 09:50:30]:
+-Iter 17500, Training Loss= 1.016110, Accuracy Top1 = 0.7000, Top5 = 0.9300
+-Iter 17500, Validation Loss= 2.769646, Accuracy Top1 = 0.3600, Top5 = 0.6500
+[2017-11-12 09:51:31]:
+-Iter 17550, Training Loss= 1.051738, Accuracy Top1 = 0.7200, Top5 = 0.9200
+-Iter 17550, Validation Loss= 2.345344, Accuracy Top1 = 0.4200, Top5 = 0.7700
+[2017-11-12 09:52:32]:
+-Iter 17600, Training Loss= 0.715406, Accuracy Top1 = 0.8400, Top5 = 0.9500
+-Iter 17600, Validation Loss= 2.567520, Accuracy Top1 = 0.4100, Top5 = 0.7400
+[2017-11-12 09:53:34]:
+-Iter 17650, Training Loss= 1.175250, Accuracy Top1 = 0.6200, Top5 = 0.9300
+-Iter 17650, Validation Loss= 2.455917, Accuracy Top1 = 0.4200, Top5 = 0.7500
+[2017-11-12 09:54:35]:
+-Iter 17700, Training Loss= 0.945356, Accuracy Top1 = 0.6900, Top5 = 0.9400
+-Iter 17700, Validation Loss= 3.101046, Accuracy Top1 = 0.3100, Top5 = 0.6800
+[2017-11-12 09:55:35]:
+-Iter 17750, Training Loss= 0.934228, Accuracy Top1 = 0.7200, Top5 = 0.9300
+-Iter 17750, Validation Loss= 2.868443, Accuracy Top1 = 0.3600, Top5 = 0.7000
+[2017-11-12 09:56:34]:
+-Iter 17800, Training Loss= 0.846820, Accuracy Top1 = 0.7200, Top5 = 0.9600
+-Iter 17800, Validation Loss= 2.556061, Accuracy Top1 = 0.3400, Top5 = 0.6800
+[2017-11-12 09:57:35]:
+-Iter 17850, Training Loss= 0.827724, Accuracy Top1 = 0.7400, Top5 = 0.9700
+-Iter 17850, Validation Loss= 2.502962, Accuracy Top1 = 0.4300, Top5 = 0.6900
+[2017-11-12 09:58:36]:
+-Iter 17900, Training Loss= 0.857135, Accuracy Top1 = 0.7300, Top5 = 0.9400
+-Iter 17900, Validation Loss= 2.754026, Accuracy Top1 = 0.3600, Top5 = 0.6800
+[2017-11-12 09:59:38]:
+-Iter 17950, Training Loss= 0.926309, Accuracy Top1 = 0.7200, Top5 = 0.9700
+-Iter 17950, Validation Loss= 3.318233, Accuracy Top1 = 0.3300, Top5 = 0.6100
+Model saved at Iter 18000 !
+[2017-11-12 10:00:43]:
+-Iter 18000, Training Loss= 1.013224, Accuracy Top1 = 0.7200, Top5 = 0.9300
+-Iter 18000, Validation Loss= 2.720585, Accuracy Top1 = 0.4300, Top5 = 0.6300
+[2017-11-12 10:01:59]:
+-Iter 18050, Training Loss= 0.930455, Accuracy Top1 = 0.7400, Top5 = 0.9300
+-Iter 18050, Validation Loss= 2.525452, Accuracy Top1 = 0.3900, Top5 = 0.7000
+[2017-11-12 10:03:09]:
+-Iter 18100, Training Loss= 0.871863, Accuracy Top1 = 0.7200, Top5 = 0.9700
+-Iter 18100, Validation Loss= 2.391698, Accuracy Top1 = 0.5200, Top5 = 0.7500
+[2017-11-12 10:04:19]:
+-Iter 18150, Training Loss= 0.844845, Accuracy Top1 = 0.7300, Top5 = 0.9800
+-Iter 18150, Validation Loss= 2.647489, Accuracy Top1 = 0.3500, Top5 = 0.7100
+[2017-11-12 10:05:23]:
+-Iter 18200, Training Loss= 1.243377, Accuracy Top1 = 0.6300, Top5 = 0.9200
+-Iter 18200, Validation Loss= 2.574394, Accuracy Top1 = 0.3400, Top5 = 0.6900
+[2017-11-12 10:06:30]:
+-Iter 18250, Training Loss= 0.872069, Accuracy Top1 = 0.7100, Top5 = 0.9800
+-Iter 18250, Validation Loss= 2.542212, Accuracy Top1 = 0.3900, Top5 = 0.6700
+[2017-11-12 10:07:38]:
+-Iter 18300, Training Loss= 1.340041, Accuracy Top1 = 0.5700, Top5 = 0.9100
+-Iter 18300, Validation Loss= 2.305229, Accuracy Top1 = 0.4500, Top5 = 0.7900
+[2017-11-12 10:08:40]:
+-Iter 18350, Training Loss= 0.911550, Accuracy Top1 = 0.7400, Top5 = 0.9500
+-Iter 18350, Validation Loss= 2.608481, Accuracy Top1 = 0.4200, Top5 = 0.7400
+[2017-11-12 10:09:45]:
+-Iter 18400, Training Loss= 1.063447, Accuracy Top1 = 0.7300, Top5 = 0.9400
+-Iter 18400, Validation Loss= 2.466385, Accuracy Top1 = 0.3800, Top5 = 0.7000
+[2017-11-12 10:10:49]:
+-Iter 18450, Training Loss= 0.963052, Accuracy Top1 = 0.7700, Top5 = 0.9400
+-Iter 18450, Validation Loss= 2.311215, Accuracy Top1 = 0.4400, Top5 = 0.7800
+[2017-11-12 10:11:55]:
+-Iter 18500, Training Loss= 1.134014, Accuracy Top1 = 0.7200, Top5 = 0.9500
+-Iter 18500, Validation Loss= 2.571254, Accuracy Top1 = 0.3600, Top5 = 0.7000
+[2017-11-12 10:13:00]:
+-Iter 18550, Training Loss= 1.032881, Accuracy Top1 = 0.7100, Top5 = 0.9400
+-Iter 18550, Validation Loss= 2.769528, Accuracy Top1 = 0.4000, Top5 = 0.6800
+[2017-11-12 10:14:08]:
+-Iter 18600, Training Loss= 0.995119, Accuracy Top1 = 0.6900, Top5 = 0.9600
+-Iter 18600, Validation Loss= 2.876848, Accuracy Top1 = 0.3100, Top5 = 0.6700
+[2017-11-12 10:16:16]:
+-Iter 18650, Training Loss= 1.311524, Accuracy Top1 = 0.6200, Top5 = 0.9100
+-Iter 18650, Validation Loss= 2.454298, Accuracy Top1 = 0.4400, Top5 = 0.7300
+[2017-11-12 10:17:54]:
+-Iter 18700, Training Loss= 1.030131, Accuracy Top1 = 0.6700, Top5 = 0.9200
+-Iter 18700, Validation Loss= 2.227595, Accuracy Top1 = 0.4300, Top5 = 0.7100
+[2017-11-12 10:20:04]:
+-Iter 18750, Training Loss= 0.921516, Accuracy Top1 = 0.7400, Top5 = 0.9400
+-Iter 18750, Validation Loss= 3.003894, Accuracy Top1 = 0.3000, Top5 = 0.6200
+[2017-11-12 10:21:11]:
+-Iter 18800, Training Loss= 0.738654, Accuracy Top1 = 0.7900, Top5 = 0.9500
+-Iter 18800, Validation Loss= 3.102110, Accuracy Top1 = 0.3500, Top5 = 0.5600
+[2017-11-12 10:22:28]:
+-Iter 18850, Training Loss= 0.902788, Accuracy Top1 = 0.7100, Top5 = 0.9500
+-Iter 18850, Validation Loss= 2.272475, Accuracy Top1 = 0.4800, Top5 = 0.7300
+[2017-11-12 10:23:39]:
+-Iter 18900, Training Loss= 1.063150, Accuracy Top1 = 0.7400, Top5 = 0.9300
+-Iter 18900, Validation Loss= 2.325196, Accuracy Top1 = 0.4600, Top5 = 0.7200

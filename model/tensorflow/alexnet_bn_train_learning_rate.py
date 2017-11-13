@@ -5,7 +5,7 @@ from tensorflow.contrib.layers.python.layers import batch_norm
 from DataLoader import *
 
 # Dataset Parameters
-batch_size = 180  #Reduce to < 200
+batch_size = 100  #Reduce to < 200
 load_size = 256
 fine_size = 224
 c = 3
@@ -16,9 +16,9 @@ learning_rate = 0.0005
 dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
 step_display = 50
-step_save = 5000
+step_save = 3000
 path_save = './alexnet_bn/alexnet_bn_learning_0.0005'
-start_from = ''
+start_from = './alexnet_bn/alexnet_bn_learning_0.0005-12000'
 
 def batch_norm_layer(x, train_phase, scope_bn):
     return batch_norm(x, decay=0.9, center=True, scale=True,
@@ -145,13 +145,12 @@ saver = tf.train.Saver()
 # Launch the graph
 with tf.Session() as sess:
     # Initialization
+    step = 0
     if len(start_from)>1:
         saver.restore(sess, start_from)
-        step = training_iters
+        step = int(start_from.split('-')[-1])
     else:
         sess.run(init)
-
-    step = 0
 
     while step < training_iters:
         # Load a batch of training data
