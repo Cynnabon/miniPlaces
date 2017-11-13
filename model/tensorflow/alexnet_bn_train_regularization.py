@@ -20,6 +20,9 @@ step_save = 2000
 path_save = './alexnet_bn/alexnet_bn_regularization'
 start_from = ''
 
+# This is a good beta value to start with (for L2 regularization)
+beta = 0.001
+
 def batch_norm_layer(x, train_phase, scope_bn):
     return batch_norm(x, decay=0.9, center=True, scale=True,
     updates_collections=None,
@@ -28,23 +31,23 @@ def batch_norm_layer(x, train_phase, scope_bn):
     trainable=True,
     scope=scope_bn)
 
+weights = {
+    'wc1': tf.Variable(tf.random_normal([11, 11, 3, 96], stddev=np.sqrt(2./(11*11*3)))),
+    'wc2': tf.Variable(tf.random_normal([5, 5, 96, 256], stddev=np.sqrt(2./(5*5*96)))),
+    'wc3': tf.Variable(tf.random_normal([3, 3, 256, 384], stddev=np.sqrt(2./(3*3*256)))),
+    'wc4': tf.Variable(tf.random_normal([3, 3, 384, 256], stddev=np.sqrt(2./(3*3*384)))),
+    'wc5': tf.Variable(tf.random_normal([3, 3, 256, 256], stddev=np.sqrt(2./(3*3*256)))),
+
+    'wf6': tf.Variable(tf.random_normal([7*7*256, 4096], stddev=np.sqrt(2./(7*7*256)))),
+    'wf7': tf.Variable(tf.random_normal([4096, 4096], stddev=np.sqrt(2./4096))),
+    'wo': tf.Variable(tf.random_normal([4096, 100], stddev=np.sqrt(2./4096)))
+}
+
+biases = {
+    'bo': tf.Variable(tf.ones(100))
+}
+    
 def alexnet(x, keep_dropout, train_phase):
-    weights = {
-        'wc1': tf.Variable(tf.random_normal([11, 11, 3, 96], stddev=np.sqrt(2./(11*11*3)))),
-        'wc2': tf.Variable(tf.random_normal([5, 5, 96, 256], stddev=np.sqrt(2./(5*5*96)))),
-        'wc3': tf.Variable(tf.random_normal([3, 3, 256, 384], stddev=np.sqrt(2./(3*3*256)))),
-        'wc4': tf.Variable(tf.random_normal([3, 3, 384, 256], stddev=np.sqrt(2./(3*3*384)))),
-        'wc5': tf.Variable(tf.random_normal([3, 3, 256, 256], stddev=np.sqrt(2./(3*3*256)))),
-
-        'wf6': tf.Variable(tf.random_normal([7*7*256, 4096], stddev=np.sqrt(2./(7*7*256)))),
-        'wf7': tf.Variable(tf.random_normal([4096, 4096], stddev=np.sqrt(2./4096))),
-        'wo': tf.Variable(tf.random_normal([4096, 100], stddev=np.sqrt(2./4096)))
-    }
-
-    biases = {
-        'bo': tf.Variable(tf.ones(100))
-    }
-
     # Conv + ReLU + Pool, 224->55->27
     conv1 = tf.nn.conv2d(x, weights['wc1'], strides=[1, 4, 4, 1], padding='SAME')
     conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
@@ -129,8 +132,9 @@ logits = alexnet(x, keep_dropout, train_phase)
 loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(labels=y, logits=logits))
 
 # Loss function using L2 Regularization
-regularizer = tf.nn.l2_loss(weights)
-loss = tf.reduce_mean(loss + beta * regularizer)
+# Loss function with L2 Regularization with decaying learning rate beta=0.5
+regularizers = sum([tf.nn.l2_loss(weight) for key, weight in weights.items()])
+loss = tf.reduce_mean(loss + beta * regularizers)
     
 train_optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(loss)
 
