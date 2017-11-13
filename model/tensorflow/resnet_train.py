@@ -126,7 +126,7 @@ train_phase = tf.placeholder(tf.bool)
 
 # Construct model
 # logits = alexnet(x, keep_dropout, train_phase)
-params= {'resnet_size': 50, 'data_format': None, 'num_classes': 174}
+params= {'resnet_size': 18, 'data_format': None, 'num_classes': 174}
 network = resnet_model.imagenet_resnet_v2(params['resnet_size'], params['num_classes'], params['data_format'])
 logits = network(inputs=x, is_training=train_phase)
 
