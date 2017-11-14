@@ -17,7 +17,7 @@ dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
 step_display = 50
 step_save = 1
-path_save = './alexnet_bn/alexnet_bn'
+path_save = './zfnet_bn/zfnet_bn'
 start_from = ''
 
 def batch_norm_layer(x, train_phase, scope_bn):
@@ -31,7 +31,7 @@ def batch_norm_layer(x, train_phase, scope_bn):
 def alexnet(x, keep_dropout, train_phase):
     weights = {
         'wc1': tf.Variable(tf.random_normal([7, 7, 3, 96], stddev=np.sqrt(2./(7*7*3)))),  # 11x11 -> 7x7 filter first layer
-	'wc1.5': tf.Variable(tf.random_normal([5, 5, 96, 96], stddev=np.sqrt(2./(5*5*96)))), ##
+	    'wc1.5': tf.Variable(tf.random_normal([5, 5, 96, 96], stddev=np.sqrt(2./(5*5*96)))), ##
         'wc2': tf.Variable(tf.random_normal([5, 5, 96, 256], stddev=np.sqrt(2./(5*5*96)))),
         'wc3': tf.Variable(tf.random_normal([3, 3, 256, 384], stddev=np.sqrt(2./(3*3*256)))),
         'wc4': tf.Variable(tf.random_normal([3, 3, 384, 256], stddev=np.sqrt(2./(3*3*384)))),
