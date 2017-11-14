@@ -30,7 +30,8 @@ def batch_norm_layer(x, train_phase, scope_bn):
 
 def alexnet(x, keep_dropout, train_phase):
     weights = {
-        'wc1': tf.Variable(tf.random_normal([7, 7, 3, 96], stddev=np.sqrt(2./(11*11*3)))),  # 11x11 -> 7x7 filter first layer
+        'wc1': tf.Variable(tf.random_normal([7, 7, 3, 96], stddev=np.sqrt(2./(7*7*3)))),  # 11x11 -> 7x7 filter first layer
+	'wc1.5': tf.Variable(tf.random_normal([5, 5, 96, 96], stddev=np.sqrt(2./(5*5*96)))), ##
         'wc2': tf.Variable(tf.random_normal([5, 5, 96, 256], stddev=np.sqrt(2./(5*5*96)))),
         'wc3': tf.Variable(tf.random_normal([3, 3, 256, 384], stddev=np.sqrt(2./(3*3*256)))),
         'wc4': tf.Variable(tf.random_normal([3, 3, 384, 256], stddev=np.sqrt(2./(3*3*384)))),
@@ -46,7 +47,12 @@ def alexnet(x, keep_dropout, train_phase):
     }
 
     # Conv + ReLU + Pool, 224->55->27
+    # 224->110->55->27
+    print(x.get_shape()) # [?, 224, 224, 3]
     conv1 = tf.nn.conv2d(x, weights['wc1'], strides=[1, 2, 2, 1], padding='SAME')  # 4 -> 2 stride
+    print(conv1.get_shape()) # [?, 112, 112, 96]
+    conv1 = tf.nn.conv2d(conv1, weights['wc1.5'], strides=[1, 2, 2, 1], padding="SAME")
+    print(conv1.get_shape())
     conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
     conv1 = tf.nn.relu(conv1)
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
@@ -88,7 +94,7 @@ def alexnet(x, keep_dropout, train_phase):
 
     # Output FC
     out = tf.add(tf.matmul(fc7, weights['wo']), biases['bo'])
-
+    print(out.get_shape())
     return out
 
 # Construct dataloader
@@ -124,7 +130,7 @@ train_phase = tf.placeholder(tf.bool)
 
 # Construct model
 logits = alexnet(x, keep_dropout, train_phase)
-
+print(logits.get_shape())
 # Define loss and optimizer
 loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(labels=y, logits=logits))
 train_optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(loss)
