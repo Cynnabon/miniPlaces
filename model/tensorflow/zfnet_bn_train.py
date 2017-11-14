@@ -5,7 +5,7 @@ from tensorflow.contrib.layers.python.layers import batch_norm
 from DataLoader import *
 
 # Dataset Parameters
-batch_size = 50  #Reduce to < 200
+batch_size = 64  #Reduce to < 200
 load_size = 256
 fine_size = 224
 c = 3
@@ -27,6 +27,13 @@ def batch_norm_layer(x, train_phase, scope_bn):
     reuse=None,
     trainable=True,
     scope=scope_bn)
+    
+    
+def contrastnorm(x):
+    y=[]
+    for item in x:
+        y.append(tf.image.per_image_standardization(item))
+    return y
 
 def zfnet(x, keep_dropout, train_phase):
     weights = {
@@ -70,6 +77,7 @@ def zfnet(x, keep_dropout, train_phase):
     conv1 = tf.nn.relu(conv1)
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
     # pool1 = tf.nn.max_pool(pool1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
+    contrastnorm1 = contrastnorm(pool1)
 
     # Conv + ReLU  + Pool, 27-> 13
     # 55 -> 26 -> 13
