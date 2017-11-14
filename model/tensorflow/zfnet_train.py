@@ -51,19 +51,19 @@ biases={
     'fc3': tf.Variable(tf.random_normal([100]))
 }
 
-def conv(self,x,weight,bias,stride):
+def conv(x,weight,bias,stride):
     return tf.nn.relu(tf.add(tf.nn.conv2d(x,weight,strides=[1,stride,stride,1],padding='SAME'),bias))
 
-def maxpool(self,x,stride,kernelsize):
+def maxpool(x,stride,kernelsize):
     return tf.nn.max_pool(x,strides=[1,stride,stride,1],ksize=[1,kernelsize,kernelsize,1],padding='SAME')
 
-def contrastnorm(self,x):
+def contrastnorm(x):
     y=[]
     for item in x:
         y.append(tf.image.per_image_standardization(item))
     return y
 
-def fc(self,x,weight,bias):
+def fc(x,weight,bias):
     return tf.nn.relu(tf.add(tf.matmul(x,weight),bias))
 
     
