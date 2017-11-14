@@ -5,7 +5,7 @@ from tensorflow.contrib.layers.python.layers import batch_norm
 from DataLoader import *
 
 # Dataset Parameters
-batch_size = 180  #Reduce to < 200
+batch_size = 50  #Reduce to < 200
 load_size = 256
 fine_size = 224
 c = 3
@@ -67,7 +67,7 @@ def zfnet(x, keep_dropout, train_phase):
     # print(conv1.get_shape())
 #    conv1 = tf.add(conv1, biases['conv1'])
     # conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
-    # conv1 = tf.nn.relu(conv1)
+    conv1 = tf.nn.relu(conv1)
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
     # pool1 = tf.nn.max_pool(pool1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
 
@@ -75,36 +75,36 @@ def zfnet(x, keep_dropout, train_phase):
     # 55 -> 26 -> 13
     conv2 = tf.nn.conv2d(pool1, weights['wc2'], strides=[1, 2, 2, 1], padding='SAME')  # 1 -> 2 stride
     # conv2 = batch_norm_layer(conv2, train_phase, 'bn2')
-    # conv2 = tf.nn.relu(conv2)
+    conv2 = tf.nn.relu(conv2)
     pool2 = tf.nn.max_pool(conv2, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
 
     # Conv + ReLU, 13-> 13
     conv3 = tf.nn.conv2d(pool2, weights['wc3'], strides=[1, 1, 1, 1], padding='SAME')
     # conv3 = batch_norm_layer(conv3, train_phase, 'bn3')
-    # conv3 = tf.nn.relu(conv3)
+    conv3 = tf.nn.relu(conv3)
 
     # Conv + ReLU, 13-> 13
     conv4 = tf.nn.conv2d(conv3, weights['wc4'], strides=[1, 1, 1, 1], padding='SAME')
     # conv4 = batch_norm_layer(conv4, train_phase, 'bn4')
-    # conv4 = tf.nn.relu(conv4)
+    conv4 = tf.nn.relu(conv4)
 
     # Conv + ReLU + Pool, 13->6
     conv5 = tf.nn.conv2d(conv4, weights['wc5'], strides=[1, 1, 1, 1], padding='SAME')
     # conv5 = batch_norm_layer(conv5, train_phase, 'bn5')
-    # conv5 = tf.nn.relu(conv5)
+    conv5 = tf.nn.relu(conv5)
     pool5 = tf.nn.max_pool(conv5, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
 
     # FC + ReLU + Dropout
     fc6 = tf.reshape(pool5, [-1, weights['wf6'].get_shape().as_list()[0]])
     fc6 = tf.matmul(fc6, weights['wf6'])
     # fc6 = batch_norm_layer(fc6, train_phase, 'bn6')
-    # fc6 = tf.nn.relu(fc6)
+    fc6 = tf.nn.relu(fc6)
     # fc6 = tf.nn.dropout(fc6, keep_dropout)
 
     # FC + ReLU + Dropout
     fc7 = tf.matmul(fc6, weights['wf7'])
     fc7 = batch_norm_layer(fc7, train_phase, 'bn7')
-    # fc7 = tf.nn.relu(fc7)
+    fc7 = tf.nn.relu(fc7)
     # fc7 = tf.nn.dropout(fc7, keep_dropout)
 
     # Output FC
