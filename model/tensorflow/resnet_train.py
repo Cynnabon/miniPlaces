@@ -19,7 +19,7 @@ dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
 step_display = 50
 step_save = 1000
-path_save = './resnet_18_classes_100/resnet_18_classes_100'
+path_save = './resnet_50_classes_100/resnet_50_classes_100'
 start_from = ''
 
 def batch_norm_layer(x, train_phase, scope_bn):
@@ -63,7 +63,7 @@ train_phase = tf.placeholder(tf.bool)
 
 # Construct model
 # logits = alexnet(x, keep_dropout, train_phase)
-params= {'resnet_size': 18, 'data_format': None, 'num_classes': 100}
+params= {'resnet_size': 50, 'data_format': None, 'num_classes': 100}
 network = resnet_model.imagenet_resnet_v2(params['resnet_size'], params['num_classes'], params['data_format'])
 logits = network(inputs=x, is_training=train_phase)
 
