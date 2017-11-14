@@ -16,8 +16,8 @@ learning_rate = 0.001
 dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
 step_display = 50
-step_save = 1
-path_save = './zfnet_bn/zfnet_bn'
+step_save = 1000
+path_save = './zfnet/zfnet'
 start_from = ''
 
 def batch_norm_layer(x, train_phase, scope_bn):
