@@ -65,7 +65,7 @@ def alexnet(x, keep_dropout, train_phase):
     # print(conv1.get_shape()) # [?, 112, 112, 96]
     # conv1 = tf.nn.conv2d(conv1, weights['wc1.5'], strides=[1, 2, 2, 1], padding="SAME")
     # print(conv1.get_shape())
-    conv1 = tf.add(conv1, biases['conv1'])
+#    conv1 = tf.add(conv1, biases['conv1'])
     conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
     conv1 = tf.nn.relu(conv1)
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
