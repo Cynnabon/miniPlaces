@@ -59,7 +59,7 @@ def alexnet(x, keep_dropout, train_phase):
     }
 
     # Conv + ReLU + Pool, 224->55->27
-    # 224->110->55->27
+    # 224->110->55
     # print(x.get_shape()) # [?, 224, 224, 3]
     conv1 = tf.nn.conv2d(x, weights['wc1'], strides=[1, 2, 2, 1], padding='SAME')  # 4 -> 2 stride
     # print(conv1.get_shape()) # [?, 112, 112, 96]
@@ -69,10 +69,11 @@ def alexnet(x, keep_dropout, train_phase):
     conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
     conv1 = tf.nn.relu(conv1)
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
-    pool1 = tf.nn.max_pool(pool1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
+    # pool1 = tf.nn.max_pool(pool1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
 
     # Conv + ReLU  + Pool, 27-> 13
-    conv2 = tf.nn.conv2d(pool1, weights['wc2'], strides=[1, 1, 1, 1], padding='SAME')
+    # 55 -> 26 -> 13
+    conv2 = tf.nn.conv2d(pool1, weights['wc2'], strides=[1, 2, 2, 1], padding='SAME')  # 1 -> 2 stride
     conv2 = batch_norm_layer(conv2, train_phase, 'bn2')
     conv2 = tf.nn.relu(conv2)
     pool2 = tf.nn.max_pool(conv2, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
