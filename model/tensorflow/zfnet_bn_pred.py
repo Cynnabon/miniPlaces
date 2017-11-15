@@ -233,7 +233,7 @@ with tf.Session() as sess:
     print('Evaluating on test set')
     num_batch = loader_test.size()//batch_size
     # sess.run(pred, feed_dict={x: tst_x})
-    file = open('testpred_learning_rate_0.005.txt', 'w')
+    file = open('testpred_zfnet_bn.txt', 'w')
 
     for i in range(num_batch):
         images_batch = loader_test.next_batch(batch_size)
