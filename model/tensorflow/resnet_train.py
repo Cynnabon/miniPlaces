@@ -7,7 +7,7 @@ from DataLoader import *
 import resnet_model
 
 # Dataset Parameters
-batch_size = 64  #Reduce to < 200
+batch_size = 32  #Reduce to < 200
 load_size = 256
 fine_size = 224
 c = 3
