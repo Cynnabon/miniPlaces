@@ -67,28 +67,38 @@ def vggnet(x, keep_dropout, train_phase):
 
     conv1 = tf.nn.conv2d(x, weights['wc1_1'], strides=conv_stride, padding='SAME')
     conv1 = tf.nn.conv2d(conv1, weights['wc1_2'], strides=conv_stride, padding='SAME')
+    conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
+    conv1 = tf.nn.relu(conv1)
     pool1 = max_pool(conv1, 'pool1')
     
     conv2 = tf.nn.conv2d(pool1, weights['wc2_1'], strides=conv_stride, padding='SAME')
     conv2 = tf.nn.conv2d(conv2, weights['wc2_2'], strides=conv_stride, padding='SAME')
+    conv2 = batch_norm_layer(conv2, train_phase, 'bn2')
+    conv2 = tf.nn.relu(conv2)
     pool2 = max_pool(conv2, 'pool2')
 
     conv3 = tf.nn.conv2d(pool2, weights['wc3_1'], strides=conv_stride, padding='SAME')
     conv3 = tf.nn.conv2d(conv3, weights['wc3_2'], strides=conv_stride, padding='SAME')
     conv3 = tf.nn.conv2d(conv3, weights['wc3_3'], strides=conv_stride, padding='SAME')
     # conv3 = tf.nn.conv2d(conv3, weights['wc3_4'], strides=conv_stride, padding='SAME')
+    conv3 = batch_norm_layer(conv3, train_phase, 'bn3')
+    conv3 = tf.nn.relu(conv3)
     pool3 = max_pool(conv3, 'pool3')
 
     conv4 = tf.nn.conv2d(pool3, weights['wc4_1'], strides=conv_stride, padding='SAME')
     conv4 = tf.nn.conv2d(conv4, weights['wc4_2'], strides=conv_stride, padding='SAME')
     conv4 = tf.nn.conv2d(conv4, weights['wc4_3'], strides=conv_stride, padding='SAME')
     # conv4 = tf.nn.conv2d(conv4, weights['wc4_4'], strides=conv_stride, padding='SAME')
+    conv4 = batch_norm_layer(conv4, train_phase, 'bn4')
+    conv4 = tf.nn.relu(conv4)
     pool4 = max_pool(conv4, 'pool4')
 
     conv5 = tf.nn.conv2d(pool4, weights['wc5_1'], strides=conv_stride, padding='SAME')
     conv5 = tf.nn.conv2d(conv5, weights['wc5_2'], strides=conv_stride, padding='SAME')
     conv5 = tf.nn.conv2d(conv5, weights['wc5_3'], strides=conv_stride, padding='SAME')
     # conv5 = tf.nn.conv2d(conv5, weights['wc5_4'], strides=conv_stride, padding='SAME')
+    conv5 = batch_norm_layer(conv5, train_phase, 'bn5')
+    conv5 = tf.nn.relu(conv5)
     pool5 = max_pool(conv5, 'pool4')
 
     # FC + ReLU + Dropout
