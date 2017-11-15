@@ -49,21 +49,21 @@ def zfnet(x, keep_dropout, train_phase):
         'wo': tf.Variable(tf.random_normal([4096, 100], stddev=np.sqrt(2./4096)))
     }
 
-    # biases = {
-    #     'bo': tf.Variable(tf.ones(100))
-    # }
-    biases={
-        'conv1': tf.Variable(tf.random_normal([96])),
-        'conv2': tf.Variable(tf.random_normal([256])),
-        'conv3': tf.Variable(tf.random_normal([384])),
-        'conv4': tf.Variable(tf.random_normal([384])),
-        'conv5': tf.Variable(tf.random_normal([256])),
-        'fc1': tf.Variable(tf.random_normal([4096])),
-        'fc2': tf.Variable(tf.random_normal([4096])),
-        'fc3': tf.Variable(tf.random_normal([100])),
-        
+    biases = {
         'bo': tf.Variable(tf.ones(100))
     }
+    # biases={
+    #     'conv1': tf.Variable(tf.random_normal([96])),
+    #     'conv2': tf.Variable(tf.random_normal([256])),
+    #     'conv3': tf.Variable(tf.random_normal([384])),
+    #     'conv4': tf.Variable(tf.random_normal([384])),
+    #     'conv5': tf.Variable(tf.random_normal([256])),
+    #     'fc1': tf.Variable(tf.random_normal([4096])),
+    #     'fc2': tf.Variable(tf.random_normal([4096])),
+    #     'fc3': tf.Variable(tf.random_normal([100])),
+    # 
+    #     'bo': tf.Variable(tf.ones(100))
+    # }
 
     # Conv + ReLU + Pool, 224->55->27
     # 224->110->55
@@ -73,10 +73,8 @@ def zfnet(x, keep_dropout, train_phase):
     # conv1 = tf.nn.conv2d(conv1, weights['wc1.5'], strides=[1, 2, 2, 1], padding="SAME")
     # print(conv1.get_shape())
 #    conv1 = tf.add(conv1, biases['conv1'])
-    # conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
     conv1 = tf.nn.relu(conv1)
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
-    # pool1 = tf.nn.max_pool(pool1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
     # contrastnorm1 = contrastnorm(pool1)
     pool1 = batch_norm_layer(pool1, train_phase, 'bn1')
 
@@ -108,13 +106,13 @@ def zfnet(x, keep_dropout, train_phase):
     fc6 = tf.matmul(fc6, weights['wf6'])
     fc6 = tf.nn.relu(fc6)
     fc6 = batch_norm_layer(fc6, train_phase, 'bn6')
-    # fc6 = tf.nn.dropout(fc6, keep_dropout)
+    fc6 = tf.nn.dropout(fc6, keep_dropout)
 
     # FC + ReLU + Dropout
     fc7 = tf.matmul(fc6, weights['wf7'])
     fc7 = tf.nn.relu(fc7)
     fc7 = batch_norm_layer(fc7, train_phase, 'bn7')
-    # fc7 = tf.nn.dropout(fc7, keep_dropout)
+    fc7 = tf.nn.dropout(fc7, keep_dropout)
 
     # Output FC
     out = tf.add(tf.matmul(fc7, weights['wo']), biases['bo'])
