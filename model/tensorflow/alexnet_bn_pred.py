@@ -28,7 +28,8 @@ training_iters = 50000
 step_display = 50
 step_save = 5000
 path_save = './alexnet_bn/alexnet_bn'
-start_from = '../../../alexnet_bn/alexnet_bn-8500'
+# start_from = '../../../alexnet_bn/alexnet_bn-8500'
+start_from = './alexnet_bn/alexnet_bn_learning_0.0005-20000'
 
 def batch_norm_layer(x, train_phase, scope_bn):
     return batch_norm(x, decay=0.9, center=True, scale=True,
@@ -208,7 +209,7 @@ with tf.Session() as sess:
     print('Evaluating on test set')
     num_batch = loader_test.size()//batch_size
     # sess.run(pred, feed_dict={x: tst_x})
-    file = open('testpred.txt', 'w')
+    file = open('testpred_learning_rate_0.005.txt', 'w')
 
     for i in range(num_batch):
         images_batch = loader_test.next_batch(batch_size)
