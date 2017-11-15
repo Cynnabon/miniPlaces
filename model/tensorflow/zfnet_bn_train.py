@@ -73,17 +73,17 @@ def zfnet(x, keep_dropout, train_phase):
     # conv1 = tf.nn.conv2d(conv1, weights['wc1.5'], strides=[1, 2, 2, 1], padding="SAME")
     # print(conv1.get_shape())
 #    conv1 = tf.add(conv1, biases['conv1'])
+    conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
     conv1 = tf.nn.relu(conv1)
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
     # contrastnorm1 = contrastnorm(pool1)
-    pool1 = batch_norm_layer(pool1, train_phase, 'bn1')
 
     # Conv + ReLU  + Pool, 27-> 13
     # 55 -> 26 -> 13
     conv2 = tf.nn.conv2d(pool1, weights['wc2'], strides=[1, 2, 2, 1], padding='SAME')  # 1 -> 2 stride
+    conv2 = batch_norm_layer(conv2, train_phase, 'bn2')
     conv2 = tf.nn.relu(conv2)
     pool2 = tf.nn.max_pool(conv2, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
-    pool2 = batch_norm_layer(pool2, train_phase, 'bn2')
 
     # Conv + ReLU, 13-> 13
     conv3 = tf.nn.conv2d(pool2, weights['wc3'], strides=[1, 1, 1, 1], padding='SAME')
@@ -97,9 +97,9 @@ def zfnet(x, keep_dropout, train_phase):
 
     # Conv + ReLU + Pool, 13->6
     conv5 = tf.nn.conv2d(conv4, weights['wc5'], strides=[1, 1, 1, 1], padding='SAME')
+    conv5 = batch_norm_layer(conv5, train_phase, 'bn5')
     conv5 = tf.nn.relu(conv5)
     pool5 = tf.nn.max_pool(conv5, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
-    conv5 = batch_norm_layer(conv5, train_phase, 'bn5')
 
     # FC + ReLU + Dropout
     fc6 = tf.reshape(pool5, [-1, weights['wf6'].get_shape().as_list()[0]])
