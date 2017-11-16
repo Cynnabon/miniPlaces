@@ -12,6 +12,89 @@ from DataLoader import *
 
 
 
+def zfnet(x, keep_dropout, train_phase):
+    weights = {
+        'wc1': tf.Variable(tf.random_normal([7, 7, 3, 96], stddev=np.sqrt(2./(7*7*3)))),  # 11x11 -> 7x7 filter first layer
+	    # 'wc1.5': tf.Variable(tf.random_normal([5, 5, 96, 96], stddev=np.sqrt(2./(5*5*96)))), ##
+        'wc2': tf.Variable(tf.random_normal([5, 5, 96, 256], stddev=np.sqrt(2./(5*5*96)))),
+        'wc3': tf.Variable(tf.random_normal([3, 3, 256, 384], stddev=np.sqrt(2./(3*3*256)))),
+        'wc4': tf.Variable(tf.random_normal([3, 3, 384, 384], stddev=np.sqrt(2./(3*3*384)))),  # 256 -> 384 last
+        'wc5': tf.Variable(tf.random_normal([3, 3, 384, 256], stddev=np.sqrt(2./(3*3*384)))),  # 3x3x256 -> 3x3x384
+
+        'wf6': tf.Variable(tf.random_normal([7*7*256, 4096], stddev=np.sqrt(2./(7*7*256)))),
+        'wf7': tf.Variable(tf.random_normal([4096, 4096], stddev=np.sqrt(2./4096))),
+        'wo': tf.Variable(tf.random_normal([4096, 100], stddev=np.sqrt(2./4096)))
+    }
+
+    biases = {
+        'bo': tf.Variable(tf.ones(100))
+    }
+    # biases={
+    #     'conv1': tf.Variable(tf.random_normal([96])),
+    #     'conv2': tf.Variable(tf.random_normal([256])),
+    #     'conv3': tf.Variable(tf.random_normal([384])),
+    #     'conv4': tf.Variable(tf.random_normal([384])),
+    #     'conv5': tf.Variable(tf.random_normal([256])),
+    #     'fc1': tf.Variable(tf.random_normal([4096])),
+    #     'fc2': tf.Variable(tf.random_normal([4096])),
+    #     'fc3': tf.Variable(tf.random_normal([100])),
+    # 
+    #     'bo': tf.Variable(tf.ones(100))
+    # }
+
+    # Conv + ReLU + Pool, 224->55->27
+    # 224->110->55
+    # print(x.get_shape()) # [?, 224, 224, 3]
+    conv1 = tf.nn.conv2d(x, weights['wc1'], strides=[1, 2, 2, 1], padding='SAME')  # 4 -> 2 stride
+    # print(conv1.get_shape()) # [?, 112, 112, 96]
+    # conv1 = tf.nn.conv2d(conv1, weights['wc1.5'], strides=[1, 2, 2, 1], padding="SAME")
+    # print(conv1.get_shape())
+#    conv1 = tf.add(conv1, biases['conv1'])
+    conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
+    conv1 = tf.nn.relu(conv1)
+    pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
+    # contrastnorm1 = contrastnorm(pool1)
+
+    # Conv + ReLU  + Pool, 27-> 13
+    # 55 -> 26 -> 13
+    conv2 = tf.nn.conv2d(pool1, weights['wc2'], strides=[1, 2, 2, 1], padding='SAME')  # 1 -> 2 stride
+    conv2 = batch_norm_layer(conv2, train_phase, 'bn2')
+    conv2 = tf.nn.relu(conv2)
+    pool2 = tf.nn.max_pool(conv2, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
+
+    # Conv + ReLU, 13-> 13
+    conv3 = tf.nn.conv2d(pool2, weights['wc3'], strides=[1, 1, 1, 1], padding='SAME')
+    conv3 = tf.nn.relu(conv3)
+    conv3 = batch_norm_layer(conv3, train_phase, 'bn3')
+
+    # Conv + ReLU, 13-> 13
+    conv4 = tf.nn.conv2d(conv3, weights['wc4'], strides=[1, 1, 1, 1], padding='SAME')
+    conv4 = tf.nn.relu(conv4)
+    conv4 = batch_norm_layer(conv4, train_phase, 'bn4')
+
+    # Conv + ReLU + Pool, 13->6
+    conv5 = tf.nn.conv2d(conv4, weights['wc5'], strides=[1, 1, 1, 1], padding='SAME')
+    conv5 = batch_norm_layer(conv5, train_phase, 'bn5')
+    conv5 = tf.nn.relu(conv5)
+    pool5 = tf.nn.max_pool(conv5, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
+
+    # FC + ReLU + Dropout
+    fc6 = tf.reshape(pool5, [-1, weights['wf6'].get_shape().as_list()[0]])
+    fc6 = tf.matmul(fc6, weights['wf6'])
+    fc6 = tf.nn.relu(fc6)
+    fc6 = batch_norm_layer(fc6, train_phase, 'bn6')
+    fc6 = tf.nn.dropout(fc6, keep_dropout)
+
+    # FC + ReLU + Dropout
+    fc7 = tf.matmul(fc6, weights['wf7'])
+    fc7 = tf.nn.relu(fc7)
+    fc7 = batch_norm_layer(fc7, train_phase, 'bn7')
+    fc7 = tf.nn.dropout(fc7, keep_dropout)
+
+    # Output FC
+    out = tf.add(tf.matmul(fc7, weights['wo']), biases['bo'])
+    
+    return out
 
 #######################################
 # Dataset Parameters
@@ -27,9 +110,8 @@ dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
 step_display = 50
 step_save = 5000
-path_save = './alexnet_bn/alexnet_bn'
-# start_from = '../../../alexnet_bn/alexnet_bn-8500'
-start_from = './alexnet_bn/alexnet_bn_learning_0.0005-20000'
+path_save = './zfnet_bn/zfnet_bn'
+start_from = './zfnet_bn/zfnet_bn_dropout_0.5-16000'
 
 def batch_norm_layer(x, train_phase, scope_bn):
     return batch_norm(x, decay=0.9, center=True, scale=True,
@@ -38,69 +120,6 @@ def batch_norm_layer(x, train_phase, scope_bn):
     reuse=None,
     trainable=True,
     scope=scope_bn)
-
-def alexnet(x, keep_dropout, train_phase):
-    weights = {
-        'wc1': tf.Variable(tf.random_normal([11, 11, 3, 96], stddev=np.sqrt(2./(11*11*3)))),
-        'wc2': tf.Variable(tf.random_normal([5, 5, 96, 256], stddev=np.sqrt(2./(5*5*96)))),
-        'wc3': tf.Variable(tf.random_normal([3, 3, 256, 384], stddev=np.sqrt(2./(3*3*256)))),
-        'wc4': tf.Variable(tf.random_normal([3, 3, 384, 256], stddev=np.sqrt(2./(3*3*384)))),
-        'wc5': tf.Variable(tf.random_normal([3, 3, 256, 256], stddev=np.sqrt(2./(3*3*256)))),
-
-        'wf6': tf.Variable(tf.random_normal([7*7*256, 4096], stddev=np.sqrt(2./(7*7*256)))),
-        'wf7': tf.Variable(tf.random_normal([4096, 4096], stddev=np.sqrt(2./4096))),
-        'wo': tf.Variable(tf.random_normal([4096, 100], stddev=np.sqrt(2./4096)))
-    }
-
-    biases = {
-        'bo': tf.Variable(tf.ones(100))
-    }
-
-    # Conv + ReLU + Pool, 224->55->27
-    conv1 = tf.nn.conv2d(x, weights['wc1'], strides=[1, 4, 4, 1], padding='SAME')
-    conv1 = batch_norm_layer(conv1, train_phase, 'bn1')
-    conv1 = tf.nn.relu(conv1)
-    pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
-
-    # Conv + ReLU  + Pool, 27-> 13
-    conv2 = tf.nn.conv2d(pool1, weights['wc2'], strides=[1, 1, 1, 1], padding='SAME')
-    conv2 = batch_norm_layer(conv2, train_phase, 'bn2')
-    conv2 = tf.nn.relu(conv2)
-    pool2 = tf.nn.max_pool(conv2, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
-
-    # Conv + ReLU, 13-> 13
-    conv3 = tf.nn.conv2d(pool2, weights['wc3'], strides=[1, 1, 1, 1], padding='SAME')
-    conv3 = batch_norm_layer(conv3, train_phase, 'bn3')
-    conv3 = tf.nn.relu(conv3)
-
-    # Conv + ReLU, 13-> 13
-    conv4 = tf.nn.conv2d(conv3, weights['wc4'], strides=[1, 1, 1, 1], padding='SAME')
-    conv4 = batch_norm_layer(conv4, train_phase, 'bn4')
-    conv4 = tf.nn.relu(conv4)
-
-    # Conv + ReLU + Pool, 13->6
-    conv5 = tf.nn.conv2d(conv4, weights['wc5'], strides=[1, 1, 1, 1], padding='SAME')
-    conv5 = batch_norm_layer(conv5, train_phase, 'bn5')
-    conv5 = tf.nn.relu(conv5)
-    pool5 = tf.nn.max_pool(conv5, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='SAME')
-
-    # FC + ReLU + Dropout
-    fc6 = tf.reshape(pool5, [-1, weights['wf6'].get_shape().as_list()[0]])
-    fc6 = tf.matmul(fc6, weights['wf6'])
-    fc6 = batch_norm_layer(fc6, train_phase, 'bn6')
-    fc6 = tf.nn.relu(fc6)
-    fc6 = tf.nn.dropout(fc6, keep_dropout)
-
-    # FC + ReLU + Dropout
-    fc7 = tf.matmul(fc6, weights['wf7'])
-    fc7 = batch_norm_layer(fc7, train_phase, 'bn7')
-    fc7 = tf.nn.relu(fc7)
-    fc7 = tf.nn.dropout(fc7, keep_dropout)
-
-    # Output FC
-    out = tf.add(tf.matmul(fc7, weights['wo']), biases['bo'])
-
-    return out
 
 # Construct dataloader
 opt_data_train = {
@@ -143,7 +162,7 @@ keep_dropout = tf.placeholder(tf.float32)
 train_phase = tf.placeholder(tf.bool)
 
 # Construct model
-logits = alexnet(x, keep_dropout, train_phase)
+logits = zfnet(x, keep_dropout, train_phase)
 
 # Define loss and optimizer
 loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(labels=y, logits=logits))
@@ -209,7 +228,7 @@ with tf.Session() as sess:
     print('Evaluating on test set')
     num_batch = loader_test.size()//batch_size
     # sess.run(pred, feed_dict={x: tst_x})
-    file = open('testpred_learning_rate_0.005.txt', 'w')
+    file = open('testpred_zfnet_bn_dropout_0.5-16000.txt', 'w')
 
     for i in range(num_batch):
         images_batch = loader_test.next_batch(batch_size)
