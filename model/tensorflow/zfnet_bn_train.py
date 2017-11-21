@@ -12,13 +12,13 @@ c = 3
 data_mean = np.asarray([0.45834960097,0.44674252445,0.41352266842])
 
 # Training Parameters
-learning_rate = 0.001
+learning_rate = 0.0001
 dropout = 0.5 # Dropout, probability to keep units
 training_iters = 50000
 step_display = 50
 step_save = 1000
-path_save = './zfnet_bn/zfnet_bn_dropout_0.5'
-start_from = './zfnet_bn/zfnet_bn_dropout_0.5-15000'
+path_save = './zfnet_bn/zfnet_bn_dropout_0.5_learning_0.0001'
+start_from = ''
 
 def batch_norm_layer(x, train_phase, scope_bn):
     return batch_norm(x, decay=0.9, center=True, scale=True,

@@ -111,7 +111,9 @@ training_iters = 50000
 step_display = 50
 step_save = 5000
 path_save = './zfnet_bn/zfnet_bn'
-start_from = './zfnet_bn/zfnet_bn_dropout_0.5-16000'
+# start_from = './zfnet_bn/zfnet_bn_dropout_0.5-16000'
+start_from = './zfnet_bn/zfnet_bn_dropout_0.5_learning_0.0001-35000'
+results_file_name = 'testpred_zfnet_bn_dropout_0.5_learning_0.0001-35000.txt'
 
 def batch_norm_layer(x, train_phase, scope_bn):
     return batch_norm(x, decay=0.9, center=True, scale=True,
@@ -228,7 +230,7 @@ with tf.Session() as sess:
     print('Evaluating on test set')
     num_batch = loader_test.size()//batch_size
     # sess.run(pred, feed_dict={x: tst_x})
-    file = open('testpred_zfnet_bn_dropout_0.5-16000.txt', 'w')
+    file = open(results_file_name, 'w')
 
     for i in range(num_batch):
         images_batch = loader_test.next_batch(batch_size)
